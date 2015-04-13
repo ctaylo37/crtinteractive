@@ -1,0 +1,26 @@
+#vip-project{
+
+  h1{
+    margin: 1rem 0;
+  }
+
+  label{
+    margin: 1rem 0!important;
+  }
+
+  .container{
+    padding-bottom: 6rem;
+
+    img, .svg{
+      width: 100%;
+      height: auto;
+    }
+
+    #map{
+      background-image: url('../img/vip/map_bg.png');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}

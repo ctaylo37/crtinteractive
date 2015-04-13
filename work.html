@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Christopher Taylor</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/imgfavicon_16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets/img/favicon_32.png" sizes="32x32">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="brand"><a href="index.html" class="active">Christopher Taylor</a></div>
+        <div class="navigation hidden-xs">
+            <a class="active">Work</a>
+            <a href="services.html">Services</a>
+            <a href="approach.html">Approach</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="mobile-navigation visible-xs">
+            <div class="dropdown">
+                <a class="pull-right" data-toggle="modal" data-target="#mobile-menu">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid no-pad">
+        <section class="third-height bg-brand text-center">
+            <h1 class="light">Work</h1>
+        </section>
+    </div>
+
+    <div id="work" class="container-fluid top-pad-2 pullUp">
+
+        <div class="row">
+            <div id="watch-hero" class="col-md-4 project-thumb"> <!-- Watch -->
+                <a href="watch.html" class="hero-over">
+                    <h3 class="light">Apple Watch Fitness</h3>
+                </a>
+            </div>
+            <div id="ai-hero" class="col-md-4 project-thumb"> <!-- AI -->
+                <a href="automationcontroller.html" class="hero-over">
+                    <h3 class="light">Home Automation Controller </h3>
+                </a>
+            </div>
+            <div id="roc-hero" class="col-md-4 project-thumb"> <!-- Roc -->
+                <a href="roc.html" class="hero-over">
+                    <h3 class="light">Room Operations Center</h3>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="vip-hero" class="col-md-4 project-thumb"> <!-- vip -->
+                <a href="vip.html" class="hero-over">
+                    <h3 class="light">Voting Information Project</h3>
+                </a>
+            </div>
+            <div id="pwd-hero" class="col-md-4 project-thumb"> <!-- pwd -->
+                <a href="stormwater.html" class="hero-over">
+                    <h3 class="light">Stormwater Interactive</h3>
+                </a>
+            </div> <!-- End pwd -->
+
+            <div id="mos-hero" class="col-md-4 project-thumb"> <!-- mos -->
+                <a href="mos.html" class="hero-over">
+                    <h3 class="light">Building Energy Benchmarking</h3>
+                </a>
+            </div>
+        </div>
+
+    </div> <!-- End Container -->
+
+    <section id="footer">
+        <h5 class="light">Proudly made in Philadelphia &copy; 2015</h5>
+        <br>
+        <a class="btn btn-lg btn-primary" href="contact.html">Work With Me</a>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="mobile-menu" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a class="pull-right" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></a>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li class="active" role="presentation"><a href="work.html">Work</a></li>
+                    <li role="presentation"><a href="services.html">Services</a></li>
+                    <li role="presentation"><a href="approach.html">Approach</a></li>
+                    <li role="presentation"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Scripts-->
+    <script type="text/javascript" src="assets/js/retina.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript" src="assets/js/headroom.js"></script>
+    <script type="text/javascript">
+        // grab an element
+        var myElement = document.querySelector("header");
+        // construct an instance of Headroom, passing the element
+        var headroom  = new Headroom(myElement);
+        // initialise
+        headroom.init();
+    </script>
+</body>
