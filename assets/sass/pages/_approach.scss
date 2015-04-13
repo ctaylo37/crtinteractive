@@ -1,0 +1,28 @@
+#approach{
+
+  .ic_approach{
+    display: block;
+    text-align: center;
+  }
+
+  .description{
+    width: 100%;
+    padding: 0 2rem 2rem 2rem;
+
+    @media(min-width: 768px){
+        width: 768px;
+    }
+  }
+
+  section{
+
+    i{
+      font-size: 2rem;
+      color: $black-24;
+    }
+
+    &.even{
+      background-color: $body;
+    }
+  }
+}

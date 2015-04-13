@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="820px"
+	 height="900px" viewBox="0 0 820 900" enable-background="new 0 0 820 900" xml:space="preserve">
+<g id="screens" display="none">
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="392.4629" y1="38.4893" x2="392.4629" y2="862.6064">
+		<stop  offset="0" style="stop-color:#E4B141"/>
+		<stop  offset="1" style="stop-color:#E9D45B"/>
+	</linearGradient>
+	<path display="inline" fill="url(#SVGID_2_)" d="M743.496,744.659c0,64.871-53.076,117.947-117.947,117.947H159.377
+		c-64.871,0-117.947-53.076-117.947-117.947V156.437c0-64.871,53.076-117.947,117.947-117.947h466.172
+		c64.871,0,117.947,53.077,117.947,117.947V744.659z"/>
+	<path display="inline" opacity="0.2" fill="#F3F2F2" d="M676,595.247c0,12.713-10.306,23.02-23.018,23.02H123.018
+		c-12.712,0-23.018-10.307-23.018-23.02V308.286c0-12.713,10.306-23.02,23.018-23.02h529.965c12.712,0,23.018,10.306,23.018,23.02
+		V595.247z"/>
+	
+		<text transform="matrix(1 0 0 1 313.4219 174.3804)" display="inline" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="69.0558">Start</text>
+	
+		<text transform="matrix(1 0 0 1 228.9863 761.0161)" display="inline" fill="#FFFFFF" font-family="'Lato-Light'" font-size="69.0558">stop watch</text>
+	<g display="inline">
+		<circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" cx="387.388" cy="676.543" r="26.353"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="416.758" y1="659.206" x2="407.742" y2="650.19"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="385.521" y1="678.389" x2="372.131" y2="691.78"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="412.25" y1="654.698" x2="407.441" y2="659.508"/>
+		
+			<circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" cx="387.325" cy="676.588" r="2.55"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M382.543,650.131
+			c0-2.645,2.143-4.783,4.783-4.783s4.781,2.139,4.781,4.783"/>
+	</g>
+	<path display="inline" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M515,199.248
+		c0,12.712-10.307,23.018-23.02,23.018H286.02c-12.713,0-23.02-10.306-23.02-23.018v-90.964c0-12.712,10.307-23.018,23.02-23.018
+		H491.98c12.713,0,23.02,10.306,23.02,23.018V199.248z"/>
+	<rect x="131.631" y="376.063" display="inline" fill="none" width="514.531" height="170.812"/>
+	
+		<text transform="matrix(1 0 0 1 138.707 518.5981)" display="inline" fill="#FFFFFF" font-family="'Lato-Light'" font-size="195.658">00:00</text>
+	<g display="inline">
+		<circle opacity="0.4" fill="#FFFFFF" cx="297.42" cy="805.54" r="11.509"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="334.25" cy="805.54" r="11.51"/>
+		<circle fill="#FFFFFF" cx="371.08" cy="805.54" r="11.51"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="407.91" cy="805.54" r="11.508"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="444.74" cy="805.54" r="11.51"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="481.569" cy="805.54" r="11.509"/>
+	</g>
+</g>
+<g id="v2">
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="392.4629" y1="38.4893" x2="392.4629" y2="862.6064">
+		<stop  offset="0" style="stop-color:#E28D12"/>
+		<stop  offset="0.1757" style="stop-color:#E2941B"/>
+		<stop  offset="0.4613" style="stop-color:#E4A933"/>
+		<stop  offset="0.5" style="stop-color:#E4AC37"/>
+		<stop  offset="0.6573" style="stop-color:#E4B53E"/>
+		<stop  offset="0.9129" style="stop-color:#E5CD50"/>
+		<stop  offset="1" style="stop-color:#E5D757"/>
+	</linearGradient>
+	<path fill="url(#SVGID_3_)" d="M743.496,744.659c0,64.871-53.076,117.947-117.947,117.947H159.377
+		c-64.871,0-117.947-53.076-117.947-117.947V156.437c0-64.871,53.076-117.947,117.947-117.947h466.172
+		c64.871,0,117.947,53.077,117.947,117.947V744.659z"/>
+	<path opacity="0.2" fill="#F3F2F2" d="M676,595.247c0,12.713-10.306,23.02-23.018,23.02H123.018
+		c-12.712,0-23.018-10.307-23.018-23.02V308.286c0-12.713,10.306-23.02,23.018-23.02h529.965c12.712,0,23.018,10.306,23.018,23.02
+		V595.247z"/>
+	<text transform="matrix(1 0 0 1 313.4219 174.3804)" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="69.0558">Start</text>
+	<text transform="matrix(1 0 0 1 228.9863 761.0161)" fill="#FFFFFF" font-family="'Lato-Light'" font-size="69.0558">stop watch</text>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" cx="387.388" cy="676.543" r="26.353"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="416.758" y1="659.206" x2="407.742" y2="650.19"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="385.521" y1="678.389" x2="372.131" y2="691.78"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="412.25" y1="654.698" x2="407.441" y2="659.508"/>
+		
+			<circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" cx="387.325" cy="676.588" r="2.55"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" d="M382.543,650.131
+			c0-2.645,2.143-4.783,4.783-4.783s4.781,2.139,4.781,4.783"/>
+	</g>
+	<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M515,199.248c0,12.712-10.307,23.018-23.02,23.018
+		H286.02c-12.713,0-23.02-10.306-23.02-23.018v-90.964c0-12.712,10.307-23.018,23.02-23.018H491.98
+		c12.713,0,23.02,10.306,23.02,23.018V199.248z"/>
+	<rect x="131.631" y="376.063" fill="none" width="514.531" height="170.812"/>
+	<text transform="matrix(1 0 0 1 138.707 518.5981)" fill="#FFFFFF" font-family="'Lato-Light'" font-size="195.658">00:00</text>
+	<g>
+		<circle opacity="0.4" fill="#FFFFFF" cx="297.42" cy="805.54" r="11.509"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="334.25" cy="805.54" r="11.51"/>
+		<circle fill="#FFFFFF" cx="371.08" cy="805.54" r="11.51"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="407.91" cy="805.54" r="11.508"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="444.74" cy="805.54" r="11.51"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="481.569" cy="805.54" r="11.509"/>
+	</g>
+</g>
+<g id="watch">
+	<g>
+		<path fill="none" stroke="#D3D7DC" stroke-miterlimit="10" d="M785.5,481.862v94.984c0,7.039-5.998,12.92-13.031,12.92H767.5v-117
+			h4.969C779.502,472.766,785.5,474.823,785.5,481.862z"/>
+		<path fill="#FFFFFF" stroke="#D3D7DC" stroke-miterlimit="10" d="M768.13,208.61v-56.47c0-76.47-62.56-139.03-139.02-139.03
+			H155.04C78.58,13.11,16.02,75.67,16.02,152.14V748.54c0,76.471,62.561,139.031,139.021,139.031h474.07
+			c76.46,0,139.02-62.561,139.02-139.031V359.06h-0.01c-13.72-6.03-24.18-37.41-24.18-75.23
+			C743.94,246.02,754.4,214.63,768.13,208.61z M740.17,741.54c0,64.23-52.55,116.781-116.78,116.781H161.83
+			c-64.23,0-116.78-52.551-116.78-116.781V159.14c0-64.23,52.55-116.78,116.78-116.78h461.56c64.23,0,116.78,52.55,116.78,116.78
+			V741.54z"/>
+		<path fill="none" stroke="#D3D7DC" stroke-miterlimit="10" d="M768.131,209.318h12.86c12.233,0,22.243,10.01,22.243,22.244
+			v105.958c0,12.234-10.01,22.244-22.243,22.244h-12.86"/>
+		<g>
+			<path fill="#D3D7DC" d="M803.234,344.537l-17.552,7.567v-1.393l17.552-7.389V344.537z M803.234,337.244l-17.552,6.501v-1.393
+				l17.552-6.324V337.244z M803.234,329.951l-17.552,5.436v-1.393l17.552-5.258V329.951z M803.234,322.659l-17.552,4.37v-1.393
+				l17.552-4.192V322.659z M803.234,315.366l-17.552,3.305v-1.394l17.552-3.128V315.366z M803.234,308.074l-17.552,2.239v-1.393
+				l17.552-2.062V308.074z M803.234,300.781l-17.552,1.174v-1.393l17.552-0.996V300.781z M803.234,293.488l-17.552,0.108v-1.393
+				l17.552,0.069V293.488z M803.234,286.195l-17.552-0.957v-1.393l17.552,1.135V286.195z M803.234,278.902l-17.552-2.023v-1.393
+				l17.552,2.201V278.902z M803.234,271.61l-17.552-3.089v-1.394l17.552,3.266V271.61z M803.234,264.317l-17.552-4.154v-1.393
+				l17.552,4.332V264.317z M803.234,257.024l-17.552-5.219v-1.393l17.552,5.397V257.024z M803.234,249.732l-17.552-6.286v-1.393
+				l17.552,6.462V249.732z M803.234,242.439l-17.552-7.351v-1.393l17.552,7.528V242.439z M803.234,235.146l-17.552-8.416v-1.393
+				l17.552,8.594V235.146z M803.234,227.854l-17.552-9.482v-1.394l17.552,9.66V227.854z"/>
+		</g>
+	</g>
+</g>
+</svg>

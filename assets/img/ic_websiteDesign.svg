@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g>
+	<g opacity="0.12">
+		<path d="M58.087,77.045v-2.706H36.452v2.704c0.107,13.521-5.409,13.521-5.409,13.521c0,1.496,1.21,2.703,2.703,2.703H60.79
+			c1.492,0,2.702-1.207,2.702-2.703C63.495,90.564,57.979,90.564,58.087,77.045z"/>
+		<path d="M90.538,63.521L90.538,63.521V12.139c0-2.987-2.42-5.409-5.408-5.409H9.409C6.421,6.73,4,9.152,4,12.139v51.382v0.002
+			h86.538V63.521z"/>
+		<rect x="9.409" y="12.139" opacity="0.1" enable-background="new    " width="75.721" height="45.972"/>
+		<path d="M4,63.521v5.412c0,2.987,2.421,5.407,5.409,5.407H85.13c2.988,0,5.408-2.42,5.408-5.407v-5.412H4z"/>
+		<path opacity="0.1" enable-background="new    " d="M33.749,93.271h27.042c1.494,0,2.704-1.209,2.704-2.703H31.043
+			C31.043,92.062,32.253,93.271,33.749,93.271z"/>
+		<circle opacity="0.1" enable-background="new    " cx="47.269" cy="68.931" r="2.703"/>
+		<path opacity="0.1" enable-background="new    " d="M85.13,6.73H49.973l21.636,56.793h18.93v-0.002V12.139
+			C90.538,9.152,88.118,6.73,85.13,6.73z"/>
+		<rect x="36.452" y="74.339" opacity="0.1" enable-background="new    " width="21.635" height="2.702"/>
+	</g>
+	<g>
+		<g>
+			<path fill="#E6E6E6" d="M61.548,77.045v-2.706H39.914v2.704c0.107,13.521-5.409,13.521-5.409,13.521
+				c0,1.496,1.21,2.703,2.704,2.703h27.043c1.493,0,2.703-1.207,2.703-2.703C66.957,90.564,61.439,90.564,61.548,77.045z"/>
+			<path fill="#434854" d="M94,63.521L94,63.521V12.139c0-2.987-2.42-5.409-5.408-5.409H12.87c-2.987,0-5.409,2.421-5.409,5.409
+				v51.382v0.002H94V63.521z"/>
+			<rect x="12.87" y="12.139" opacity="0.1" fill="#FFFFFF" enable-background="new    " width="75.722" height="45.972"/>
+			<path fill="#E6E6E6" d="M7.461,63.521v5.412c0,2.987,2.421,5.407,5.409,5.407h75.722c2.988,0,5.408-2.42,5.408-5.407v-5.412
+				H7.461z"/>
+			<path opacity="0.1" enable-background="new    " d="M37.21,93.271h27.042c1.494,0,2.705-1.209,2.705-2.703H34.505
+				C34.505,92.062,35.715,93.271,37.21,93.271z"/>
+			<circle opacity="0.1" enable-background="new    " cx="50.73" cy="68.931" r="2.703"/>
+			<path opacity="0.1" fill="#FFFFFF" enable-background="new    " d="M88.592,6.73H53.436L75.07,63.523H94v-0.002V12.139
+				C94,9.152,91.58,6.73,88.592,6.73z"/>
+			<rect x="39.914" y="74.339" opacity="0.1" enable-background="new    " width="21.634" height="2.702"/>
+		</g>
+	</g>
+</g>
+</svg>

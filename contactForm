@@ -1,0 +1,24 @@
+<div class="pull-right"><a class="btn btn-sm btn-default" href="mailto:crtcreative@gmail.com?subject=Website Inquiry">Email Me</a></div>
+                    <br>
+                    <form>
+                        <div class="custom-input-group">
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Name</label>
+                        </div>
+                        <div class="custom-input-group">
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Email</label>
+                        </div>
+                        <div class="custom-input-group">
+                            <input type="textarea" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>What would you like to talk about?</label>
+                        </div>
+                        <br>
+                        <button class="btn btn-lg btn-primary">Submit Form</button>
+                    </form>

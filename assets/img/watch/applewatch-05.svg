@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="820px"
+	 height="900px" viewBox="0 0 820 900" enable-background="new 0 0 820 900" xml:space="preserve">
+<g id="screens" display="none">
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="393.4629" y1="38.7549" x2="393.4629" y2="862.8721">
+		<stop  offset="0" style="stop-color:#698AC6"/>
+		<stop  offset="1" style="stop-color:#72B2DE"/>
+	</linearGradient>
+	<path display="inline" fill="url(#SVGID_2_)" d="M744.496,744.925c0,64.871-53.076,117.947-117.947,117.947H160.377
+		c-64.871,0-117.947-53.076-117.947-117.947V156.702c0-64.87,53.076-117.947,117.947-117.947h466.172
+		c64.871,0,117.947,53.077,117.947,117.947V744.925z"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="393.5" y1="233.2656" x2="393.5" y2="120.2656">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	</linearGradient>
+	<path display="inline" opacity="0.2" fill="url(#SVGID_3_)" d="M680,210.331c0,12.67-9.588,22.935-22.256,22.935H130.12
+		c-12.671,0-23.12-10.265-23.12-22.935v-68.819c0-12.67,10.449-21.246,23.12-21.246h527.624c12.668,0,22.256,8.576,22.256,21.246
+		V210.331z"/>
+	<path display="inline" opacity="0.2" fill="#F3F2F2" d="M680,589.991c0,12.67-9.588,24.274-22.256,24.274H130.12
+		c-12.671,0-23.12-11.604-23.12-24.274v-68.819c0-12.672,10.449-22.906,23.12-22.906h527.624c12.668,0,22.256,10.234,22.256,22.906
+		V589.991z"/>
+	
+		<text transform="matrix(1 0 0 1 325.5908 159.8926)" display="inline" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="68.8205">50%</text>
+	
+		<text transform="matrix(1 0 0 1 316.8691 744.5303)" display="inline" fill="#FFFFFF" font-family="'Lato-Light'" font-size="68.8205">goals</text>
+	<path display="inline" opacity="0.2" fill="#F3F2F2" d="M680,462.675c0,12.668-9.588,23.591-22.256,23.591H130.12
+		c-12.671,0-23.12-10.923-23.12-23.591v-68.822c0-12.669,10.449-22.587,23.12-22.587h527.624c12.668,0,22.256,9.918,22.256,22.587
+		V462.675z"/>
+	<rect x="136.163" y="412.253" display="inline" fill="none" width="511.673" height="41.197"/>
+	
+		<text transform="matrix(1 0 0 1 136.1631 452.8291)" display="inline" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="55.0564">1200 steps</text>
+	<path display="inline" opacity="0.2" fill="#F3F2F2" d="M680,336.502c0,12.67-9.588,22.764-22.256,22.764H130.12
+		c-12.671,0-23.12-10.094-23.12-22.764v-68.82c0-12.67,10.449-22.416,23.12-22.416h527.624c12.668,0,22.256,9.746,22.256,22.416
+		V336.502z"/>
+	
+		<line display="inline" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="394" y1="526.266" x2="394" y2="583.266"/>
+	
+		<line display="inline" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="366" y1="556.266" x2="422" y2="556.266"/>
+	<g display="inline">
+		<circle opacity="0.4" fill="#FFFFFF" cx="302.548" cy="790.049" r="11.47"/>
+		<path opacity="0.4" fill="#FFFFFF" d="M350.723,790.049c0,6.336-5.139,11.47-11.471,11.47c-6.336,0-11.471-5.134-11.471-11.47
+			c0-6.333,5.135-11.472,11.471-11.472C345.584,778.577,350.723,783.716,350.723,790.049z"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="375.956" cy="790.049" r="11.47"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="412.659" cy="790.049" r="11.47"/>
+		<circle fill="#FFFFFF" cx="449.364" cy="790.049" r="11.47"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="486.069" cy="790.049" r="11.47"/>
+	</g>
+	<g display="inline">
+		<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M416,678.656c0,8.679-6.271,16.609-14.951,16.609
+			h-25.926c-8.678,0-16.123-7.931-16.123-16.609v-25.928c0-8.674,7.445-14.463,16.123-14.463h25.926
+			c8.68,0,14.951,5.789,14.951,14.463V678.656z"/>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" points="375.688,657.806 391.281,673.401 
+			427.014,637.67 		"/>
+	</g>
+	<rect x="135.733" y="283.788" display="inline" fill="none" width="511.675" height="41.196"/>
+	
+		<text transform="matrix(1 0 0 1 135.7334 324.3652)" display="inline" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="55.0564">200 stairs</text>
+	<polyline display="inline" fill="none" stroke="#8CCEAF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" points="
+		586.738,304.527 602.33,320.123 638.066,284.389 	"/>
+</g>
+<g id="v2">
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="393.4629" y1="38.7549" x2="393.4629" y2="862.8721">
+		<stop  offset="0" style="stop-color:#3463C7"/>
+		<stop  offset="0.4616" style="stop-color:#6485D3"/>
+		<stop  offset="1" style="stop-color:#80C0E4"/>
+	</linearGradient>
+	<path fill="url(#SVGID_4_)" d="M744.496,744.925c0,64.871-53.076,117.947-117.947,117.947H160.377
+		c-64.871,0-117.947-53.076-117.947-117.947V156.702c0-64.87,53.076-117.947,117.947-117.947h466.172
+		c64.871,0,117.947,53.077,117.947,117.947V744.925z"/>
+	<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="393.5" y1="233.2656" x2="393.5" y2="120.2656">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	</linearGradient>
+	<path opacity="0.2" fill="url(#SVGID_5_)" d="M680,210.331c0,12.67-9.588,22.935-22.256,22.935H130.12
+		c-12.671,0-23.12-10.265-23.12-22.935v-68.819c0-12.67,10.449-21.246,23.12-21.246h527.624c12.668,0,22.256,8.576,22.256,21.246
+		V210.331z"/>
+	<path opacity="0.2" fill="#F3F2F2" d="M680,589.991c0,12.67-9.588,24.274-22.256,24.274H130.12
+		c-12.671,0-23.12-11.604-23.12-24.274v-68.819c0-12.672,10.449-22.906,23.12-22.906h527.624c12.668,0,22.256,10.234,22.256,22.906
+		V589.991z"/>
+	<text transform="matrix(1 0 0 1 325.5908 159.8926)" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="68.8205">50%</text>
+	<text transform="matrix(1 0 0 1 316.8691 744.5303)" fill="#FFFFFF" font-family="'Lato-Light'" font-size="68.8205">goals</text>
+	<path opacity="0.2" fill="#F3F2F2" d="M680,462.675c0,12.668-9.588,23.591-22.256,23.591H130.12
+		c-12.671,0-23.12-10.923-23.12-23.591v-68.822c0-12.669,10.449-22.587,23.12-22.587h527.624c12.668,0,22.256,9.918,22.256,22.587
+		V462.675z"/>
+	<rect x="136.163" y="412.253" fill="none" width="511.673" height="41.197"/>
+	<text transform="matrix(1 0 0 1 136.1631 452.8291)" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="55.0564">1200 steps</text>
+	<path opacity="0.2" fill="#F3F2F2" d="M680,336.502c0,12.67-9.588,22.764-22.256,22.764H130.12
+		c-12.671,0-23.12-10.094-23.12-22.764v-68.82c0-12.67,10.449-22.416,23.12-22.416h527.624c12.668,0,22.256,9.746,22.256,22.416
+		V336.502z"/>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="394" y1="526.266" x2="394" y2="583.266"/>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="366" y1="556.266" x2="422" y2="556.266"/>
+	<g>
+		<circle opacity="0.4" fill="#FFFFFF" cx="302.548" cy="790.049" r="11.47"/>
+		<path opacity="0.4" fill="#FFFFFF" d="M350.723,790.049c0,6.336-5.139,11.47-11.471,11.47c-6.336,0-11.471-5.134-11.471-11.47
+			c0-6.333,5.135-11.472,11.471-11.472C345.584,778.577,350.723,783.716,350.723,790.049z"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="375.956" cy="790.049" r="11.47"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="412.659" cy="790.049" r="11.47"/>
+		<circle fill="#FFFFFF" cx="449.364" cy="790.049" r="11.47"/>
+		<circle opacity="0.4" fill="#FFFFFF" cx="486.069" cy="790.049" r="11.47"/>
+	</g>
+	<g>
+		<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M416,678.656c0,8.679-6.271,16.609-14.951,16.609
+			h-25.926c-8.678,0-16.123-7.931-16.123-16.609v-25.928c0-8.674,7.445-14.463,16.123-14.463h25.926
+			c8.68,0,14.951,5.789,14.951,14.463V678.656z"/>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" points="375.688,657.806 391.281,673.401 
+			427.014,637.67 		"/>
+	</g>
+	<rect x="135.733" y="283.788" fill="none" width="511.675" height="41.196"/>
+	<text transform="matrix(1 0 0 1 135.7334 324.3652)" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="55.0564">200 stairs</text>
+	<polyline fill="none" stroke="#8CCEAF" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" points="586.738,304.527 
+		602.33,320.123 638.066,284.389 	"/>
+</g>
+<g id="watch">
+	<g>
+		<path fill="none" stroke="#D3D7DC" stroke-miterlimit="10" d="M786.5,481.861v94.985c0,7.039-5.998,12.919-13.031,12.919H768.5
+			v-117h4.969C780.502,472.766,786.5,474.823,786.5,481.861z"/>
+		<path fill="#FFFFFF" stroke="#D3D7DC" stroke-miterlimit="10" d="M769.13,208.609v-56.469c0-76.471-62.56-139.031-139.02-139.031
+			H156.04C79.58,13.109,17.02,75.67,17.02,152.141V748.54c0,76.47,62.561,139.03,139.021,139.03h474.07
+			c76.46,0,139.02-62.561,139.02-139.03V359.061h-0.01c-13.72-6.031-24.18-37.41-24.18-75.23
+			C744.94,246.02,755.4,214.63,769.13,208.609z M741.17,741.54c0,64.229-52.55,116.78-116.78,116.78H162.83
+			c-64.23,0-116.78-52.551-116.78-116.78V159.141c0-64.23,52.55-116.781,116.78-116.781h461.56
+			c64.23,0,116.78,52.551,116.78,116.781V741.54z"/>
+		<path fill="none" stroke="#D3D7DC" stroke-miterlimit="10" d="M769.131,209.318h12.86c12.233,0,22.243,10.01,22.243,22.244
+			v105.958c0,12.233-10.01,22.243-22.243,22.243h-12.86"/>
+		<g>
+			<path fill="#D3D7DC" d="M804.234,344.537l-17.552,7.566v-1.393l17.552-7.389V344.537z M804.234,337.244l-17.552,6.502v-1.394
+				l17.552-6.324V337.244z M804.234,329.951l-17.552,5.436v-1.393l17.552-5.258V329.951z M804.234,322.658l-17.552,4.371v-1.394
+				l17.552-4.192V322.658z M804.234,315.366l-17.552,3.306v-1.395l17.552-3.127V315.366z M804.234,308.074l-17.552,2.238v-1.393
+				l17.552-2.062V308.074z M804.234,300.781l-17.552,1.174v-1.394l17.552-0.996V300.781z M804.234,293.488l-17.552,0.107v-1.393
+				l17.552,0.069V293.488z M804.234,286.195l-17.552-0.957v-1.394l17.552,1.136V286.195z M804.234,278.902l-17.552-2.023v-1.393
+				l17.552,2.201V278.902z M804.234,271.61l-17.552-3.089v-1.394l17.552,3.267V271.61z M804.234,264.316l-17.552-4.153v-1.394
+				l17.552,4.332V264.316z M804.234,257.024l-17.552-5.22v-1.393l17.552,5.397V257.024z M804.234,249.732l-17.552-6.286v-1.393
+				l17.552,6.462V249.732z M804.234,242.439l-17.552-7.352v-1.393l17.552,7.527V242.439z M804.234,235.146l-17.552-8.416v-1.393
+				l17.552,8.595V235.146z M804.234,227.854l-17.552-9.481v-1.394l17.552,9.66V227.854z"/>
+		</g>
+	</g>
+</g>
+</svg>
