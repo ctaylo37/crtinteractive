@@ -9136,11 +9136,11 @@ section {
 }
 /* line 68, ../sass/base/_base.scss */
 section.full-height {
-  height: 100vh;
+  min-height: 100vh;
 }
 /* line 72, ../sass/base/_base.scss */
 section.half-height {
-  height: 50vh;
+  min-height: 50vh;
 }
 /* line 76, ../sass/base/_base.scss */
 section.third-height {
