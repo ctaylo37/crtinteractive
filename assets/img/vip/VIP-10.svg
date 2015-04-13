@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="550px"
 	 height="1000px" viewBox="0 0 550 1000" enable-background="new 0 0 550 1000" xml:space="preserve">
-<g id="raster_map" display="none">
+<g id="raster_map">
 </g>
 <g id="screens">
 	<rect x="55" y="97.992" fill="#FFFFFF" width="440" height="782"/>
