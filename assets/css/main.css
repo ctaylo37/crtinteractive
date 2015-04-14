@@ -9136,22 +9136,23 @@ section {
 }
 /* line 68, ../sass/base/_base.scss */
 section.full-height {
-  min-height: 100vh;
+  min-height: 700px;
+  height: 100vh;
 }
-/* line 72, ../sass/base/_base.scss */
+/* line 73, ../sass/base/_base.scss */
 section.half-height {
-  min-height: 50vh;
+  height: 50vh;
 }
-/* line 76, ../sass/base/_base.scss */
+/* line 77, ../sass/base/_base.scss */
 section.third-height {
   height: 40vh;
 }
-/* line 80, ../sass/base/_base.scss */
+/* line 81, ../sass/base/_base.scss */
 section h2, section h3 {
   text-align: center;
 }
 
-/* line 85, ../sass/base/_base.scss */
+/* line 86, ../sass/base/_base.scss */
 #footer {
   padding: 6rem 3rem;
   background-color: black;
