@@ -172,4 +172,12 @@
         // initialise
         headroom.init();
     </script>
+    <script src="js/viewport-units-buggyfill.js"></script>
+    <script>window.viewportUnitsBuggyfill.init();</script>
+    <script>
+        var hacks = require('viewport-units-buggyfill.hacks');
+        require('viewport-units-buggyfill').init({
+          hacks: hacks
+        });
+    </script>
 </body>
