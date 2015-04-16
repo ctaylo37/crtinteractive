@@ -65,10 +65,11 @@ section{
   -webkit-display: flex;
   -webkit-flex-direction: column;
   -webkit-justify-content: center;
+  word-wrap: break-word;
 
   &.full-height{
-    min-height: 700px;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
   }
 
   &.half-height{
