@@ -1,3 +1,10 @@
 #footer{
+    a i{
+        color: $paper-54;
+        padding: 12px;
 
+        &:hover{
+            color: $brand-primary;
+        }
+    }
 }

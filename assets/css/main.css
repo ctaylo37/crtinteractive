@@ -9395,6 +9395,16 @@ h5 {
   font-size: 2rem;
 }
 
+/* line 2, ../sass/base/_footer.scss */
+#footer a i {
+  color: rgba(255, 255, 255, 0.54);
+  padding: 12px;
+}
+/* line 6, ../sass/base/_footer.scss */
+#footer a i:hover {
+  color: #ceae11;
+}
+
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
