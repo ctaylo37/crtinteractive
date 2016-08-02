@@ -14,6 +14,7 @@ a.hero-over{
   color: $paper;
   padding: 2rem;
   position: absolute;
+  text-align: center;
   top: 0;
   left: 0;
   right: 0;
@@ -26,6 +27,11 @@ a.hero-over{
   align-items: center;
   justify-content: center;
   text-decoration: none;
+
+  label{
+    background-color: $brand-primary;
+    padding: 8px;
+  }
 
   &:hover{
     opacity: 1;
@@ -93,6 +99,14 @@ a{
 //Project Images
 #watch-hero{
   background-image: url('../img/home_slides/hero_watch.png');
+}
+
+#cicero-hero{
+  background-image: url('../img/home_slides/hero_cicero.png');
+}
+
+#trca-hero{
+  background-image: url('../img/home_slides/hero_trca.png');
 }
 
 #ai-hero{
