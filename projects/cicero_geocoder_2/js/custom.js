@@ -1,0 +1,1 @@
+$(document).tooltip(hover focus)

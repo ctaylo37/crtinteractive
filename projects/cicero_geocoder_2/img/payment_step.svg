@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="260px" height="60px" viewBox="0 0 260 60" enable-background="new 0 0 260 60" xml:space="preserve">
+<g>
+	<text transform="matrix(1 0 0 1 2.0449 15.0566)" fill="#535353" font-family="'Roboto-Medium'" font-size="14">Review</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 93.1001 15.0566)" fill="#535353" font-family="'Roboto-Medium'" font-size="14">Payment</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 203.9941 15.0566)" fill="#535353" font-family="'Roboto-Medium'" font-size="14">Confirm</text>
+</g>
+<circle fill="none" stroke="#CDCCCC" stroke-width="3" stroke-miterlimit="10" cx="24.658" cy="44.125" r="14.125"/>
+<circle fill="none" stroke="#CDCCCC" stroke-width="3" stroke-miterlimit="10" cx="120.658" cy="44.125" r="14.125"/>
+<circle fill="none" stroke="#CDCCCC" stroke-width="3" stroke-miterlimit="10" cx="228.658" cy="44.125" r="14.125"/>
+<line fill="none" stroke="#CDCCCC" stroke-width="3" stroke-miterlimit="10" x1="38" y1="44.5" x2="106" y2="44.5"/>
+<line fill="none" stroke="#CDCCCC" stroke-width="3" stroke-miterlimit="10" x1="134" y1="44.5" x2="214" y2="44.5"/>
+<circle fill="#53A8C8" cx="24.766" cy="44.116" r="9.484"/>
+<circle fill="#53A8C8" cx="120.766" cy="44.116" r="9.484"/>
+</svg>

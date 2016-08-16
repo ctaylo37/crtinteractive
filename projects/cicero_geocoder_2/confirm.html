@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cicero GeoCoder</title>
+	<link rel="icon"
+      type="image/png"
+      href="img/favicon.png">
+	<link href="css/main.css" rel="stylesheet">
+	<script src="js/respond.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="navbar">
+			<div class="">
+				<div class="brand">
+					<a href="import.html"><svg width="190" height="30">
+			          <image xlink:href="img/logo.svg" src="img/logo.png" width="190" height="30"></image>
+			        </svg></a>
+				</div>
+				<div class="nav-wrapper">
+					<div class="nav hidden-xs hidden-sm">
+						<ul class="nav nav-pills">
+						  <li role="presentation"><a href="api.html">Dashboard</a></li>
+						  <li role="presentation"><a href="batch.html">Demo</a></li>
+						  <li class="active" role="presentation"><a href="licensing.html">Batch Processing</a></li>
+						  <li role="presentation"><a href="community.html">Documentation</a></li>
+						  <li role="presentation"><a href="contact.html">Purchase</a></li>
+	  					  <li role="presentation"><a href="index.html">Logout</a></li>
+						</ul>
+					</div>
+					<div class="mobile-navigation visible-xs visible-sm">
+		                <a class="pull-right" data-toggle="modal" data-target="#mobile-menu">
+		                	<i class="fa fa-bars"></i>
+		                </a>
+			        </div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="row toolbar">
+		<div class="container">
+			<div class="col-lg-4 col-lg-push-8 controls">
+				<a href="projects.html" type="button" class="btn btn-lg btn-ghost btn-projects">My Projects</a>
+				<a href="import.html" type="button" class="btn btn-lg btn-green"><i class="fa fa-plus-circle"></i>Create New Project</a>
+			</div>
+			<div class="col-lg-8 col-lg-pull-4">
+				<div class="btn-group">
+				  <a href="import.html" type="button" class="btn btn-step">
+				  	<i class="fa fa-cloud-upload"></i>
+				  	Import</a>
+				  <a href="match.html" type="button" class="btn btn-step">
+				  	<i class="fa fa-list-ul"></i>
+				  	Match Fields & Verify</a>
+				  <a href="select.html" type="button" class="btn btn-step">
+				  	<i class="fa fa-tasks"></i>
+				  	Select Data</a>
+				  <a href="review.html" type="button" class="active btn btn-step">
+				  	<i class="fa fa-check"></i>
+				  	Review & Confirm</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content container">
+		<!-- Main Content -->
+		<div class="col-lg-10 col-lg-offset-1 main-full">
+			<div class="row no-marg no-pad">
+				<svg width="26" height="13" class="review_tic pull-left">
+				    <image xlink:href="img/select_tic.svg" src="img/select_tic.png" width="26" height="13"/>
+				</svg>
+			</div>
+
+			<div class="row step-confirm"></div>
+
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="confirm-box">
+						<div class="section-label">
+							Confirm Details
+						</div>
+
+						<table class="table-dashed table-hover">
+					        <tbody>
+					          	<tr>
+						            <td>Email</td>
+						            <td class="right"><b>ctaylor@azavea.com</b></td>
+					          	</tr>
+					          	<tr>
+						            <td>Name</td>
+						            <td class="right"><b>Christopher Taylor</b></td>
+					          	</tr>
+					          	<tr>
+						            <td>Billing Address</td>
+						            <td class="right"><b>340 N 12th St, Ste 402, Philadelphia, PA</b></td>
+					          	</tr>
+					          	<tr>
+						            <td>Card Number</td>
+						            <td class="right"><b>---- ---- ---- 5555</b></td>
+					          	</tr>
+					          	<tr>
+						            <td>Expiration Date</td>
+						            <td class="right"><b>12/12</b></td>
+					          	</tr>
+					          	<tr>
+						            <td>CVC</td>
+						            <td class="right"><b>xxx</b></td>
+					          	</tr>
+					          	<tr>
+						            <td><h2>Maximum Authorized Charge</h2><i class="fa fa-info-circle btn-icon-primary" data-toggle="tooltip" data-placement="top" title="You will only be charged for successful matches.  We will email you with the final details."></i></td>
+						            <td><h6 class="pull-right">$72.00</h6></td>
+					          	</tr>
+					        </tbody>
+				      	</table>
+					</div>
+				</div>
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="well well-price">
+						<p>* All payments are securely processed by industry leader Stripe. Your card information never even touches our servers. Stripe is an audited and certified PCI Level 1 Service Provider – the most stringent level of certification available.</p>
+						<p>* This charge will be marked as "AZAVEA * CICERO API" on your credit card statement.</p>
+					</div>
+				</div>
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-lg-12">
+					<input type="checkbox" class="checkbox">I have read and agree to the <a href="#">Terms & Conditions</a>
+				</div>
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-lg-12">
+					<a href="payment.html" type="button" class="btn btn-lg btn-default pull-left"><i class="fa fa-chevron-left"></i>Change</a>
+					<a href="thanks.html" type="button" class="btn btn-lg btn-green pull-right">Submit Order</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row no-marg socket">
+			Copyright © 2001 - 2014, Azavea. All rights reserved.
+		</div>
+	</div>
+
+<!-- javascript -->
+	<script type="text/javascript">
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+</body>
+</html>

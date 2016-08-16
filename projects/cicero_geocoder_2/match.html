@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cicero GeoCoder</title>
+	<link rel="icon"
+      type="image/png"
+      href="img/favicon.png">
+	<link href="css/main.css" rel="stylesheet">
+	<script src="js/respond.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="navbar">
+			<div class="">
+				<div class="brand">
+					<a href="import.html"><svg width="190" height="30">
+			          <image xlink:href="img/logo.svg" src="img/logo.png" width="190" height="30"></image>
+			        </svg></a>
+				</div>
+				<div class="nav-wrapper">
+					<div class="nav hidden-xs hidden-sm">
+						<ul class="nav nav-pills">
+						  <li role="presentation"><a href="api.html">Dashboard</a></li>
+						  <li role="presentation"><a href="batch.html">Demo</a></li>
+						  <li class="active" role="presentation"><a href="licensing.html">Batch Processing</a></li>
+						  <li role="presentation"><a href="community.html">Documentation</a></li>
+						  <li role="presentation"><a href="contact.html">Purchase</a></li>
+	  					  <li role="presentation"><a href="index.html">Logout</a></li>
+						</ul>
+					</div>
+					<div class="mobile-navigation visible-xs visible-sm">
+		                <a class="pull-right" data-toggle="modal" data-target="#mobile-menu">
+		                	<i class="fa fa-bars"></i>
+		                </a>
+			        </div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="row toolbar">
+		<div class="container">
+			<div class="col-md-4 col-md-push-8 controls">
+				<a href="projects.html" type="button" class="btn btn-lg btn-ghost btn-projects">My Projects</a>
+				<a href="import.html" type="button" class="btn btn-lg btn-green"><i class="fa fa-plus-circle"></i>Create New Project</a>
+			</div>
+			<div class="col-md-8 col-md-pull-4">
+				<div class="btn-group">
+				  <a href="import.html" type="button" class="btn btn-step">
+				  	<i class="fa fa-cloud-upload"></i>
+				  	Import</a>
+				  <a href="match.html" type="button" class="active btn btn-step">
+				  	<i class="fa fa-list-ul"></i>
+				  	Match Fields & verify</a>
+				  <a href="select.html" type="button" class="btn btn-step">
+				  	<i class="fa fa-tasks"></i>
+				  	Select Data</a>
+				  <a href="review.html" type="button" class="btn btn-step">
+				  	<i class="fa fa-check"></i>
+				  	Review & Confirm</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content container">
+		<!-- Main Content -->
+		<div class="col-md-8 main">
+			<div class="row no-marg no-pad">
+				<svg width="26" height="13" class="match_tic pull-left">
+				    <image xlink:href="img/select_tic.svg" src="img/select_tic.png" width="26" height="13"/>
+				</svg>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h1>2. Match Fields & verify</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="input-group">
+					<div class="col-md-3">
+						<label for="country" class="col-md-3 label">Addresses Are Located:</label>
+					</div>
+					<div class="col-md-9">
+						<select class="form-control">
+							<option>USA</option>
+							<option>Canada</option>
+							<option>New Zealand</option>
+							<option>United Kingdom</option>
+							<option>Northern Ireland</option>
+						</select>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="well">
+						<i class="fa fa-exclamation-circle"></i>
+						 <p>In order to run the geo-coder we have to make sure all of the fields in your document match the fields reqired for batch processing.  <strong>Select the field from your document (Right Column) that corresponds to the accurate geo-coding field (Left Column)</strong></p>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+			<div class="row"> <!-- By checking yes, we disable all fields below unique ID-->
+				<div class="col-md-12">
+					<h2>It appears you my have Lattitude/Longitude.  Do you want to use them?</h2>
+					<input type="checkbox" class="checkbox">Yes
+				</div>
+			</div>
+
+			<div class="input-group">
+				<div class="col-md-3">
+					<label for="latitude" class="col-md-3 label">Latitude:</label>
+				</div>
+				<div class="col-md-9">
+					<select class="form-control">
+						<option>Latitude 1</option>
+						<option>Latitude 2</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="input-group">
+				<div class="col-md-3">
+					<label for="longitude" class="col-md-3 label">Longitude:</label>
+				</div>
+				<div class="col-md-9">
+					<select class="form-control">
+						<option>Longitude 1</option>
+						<option>Longitude 2</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="input-group">
+				<div class="col-md-3">
+					<label for="longitude" class="col-md-3 label">Unique ID:</label>
+				</div>
+				<div class="col-md-9">
+					<select class="form-control">
+						<option>Option 1</option>
+						<option>Option 2</option>
+					</select>
+				</div>
+			</div>
+			<div class="input-group">
+				<div class="col-md-3">
+					<label for="longitude" class="col-md-3 label">Primary Address:</label>
+				</div>
+				<div class="col-md-9">
+					<select class="form-control">
+						<option>Option 1</option>
+						<option>Option 2</option>
+					</select>
+				</div>
+			</div>
+			<div class="input-group">
+				<div class="col-md-3">
+					<label for="longitude" class="col-md-3 label">City:</label>
+				</div>
+				<div class="col-md-9">
+					<select class="form-control">
+						<option>Option 1</option>
+						<option>Option 2</option>
+					</select>
+				</div>
+			</div>
+			<div class="input-group">
+				<div class="col-md-3">
+					<label for="longitude" class="col-md-3 label">State:</label>
+				</div>
+				<div class="col-md-9">
+					<select class="form-control">
+						<option>Option 1</option>
+						<option>Option 2</option>
+					</select>
+				</div>
+			</div>
+			<div class="input-group">
+				<div class="col-md-3">
+					<label for="longitude" class="col-md-3 label">Postal Code:</label>
+				</div>
+				<div class="col-md-9">
+					<select class="form-control">
+						<option>Option 1</option>
+						<option>Option 2</option>
+					</select>
+				</div>
+			</div>
+
+			<hr>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Verify</h2>
+					<p>Preview your fields below.</p>
+				</div>
+				<div class="col-md-12">
+					<table class="table table-border">
+				        <thead>
+				          <tr>
+				            <th>Unique ID</th>
+				            <th>Address</th>
+				            <th>City</th>
+				            <th>State</th>
+				            <th>Postal Code</th>
+				          </tr>
+				        </thead>
+				        <tbody>
+				          <tr>
+				            <td>1</td>
+				            <td>123 Main St</td>
+				            <td>Philadelphia</td>
+				            <td>PA</td>
+				            <td>55555</td>
+				          </tr>
+				          <tr>
+				            <td>2</td>
+				            <td>456 Second St</td>
+				            <td>Philadelphia</td>
+				            <td>PA</td>
+				            <td>55555</td>
+				          </tr>
+				          <tr>
+				            <td>3</td>
+				            <td>789 Third St</td>
+				            <td>Philadelphia</td>
+				            <td>PA</td>
+				            <td>55555</td>
+				          </tr>
+				        </tbody>
+				      </table>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a href="#" type="button" class="btn btn-md btn-blue pull-right">Verify</a>
+				</div>
+			</div>
+
+			<!-- Only Visible after "verify" has been run -->
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Process Summary</h2>
+					<p>Check below for any errors.  Errors may be deleted from this job, or you can download a copy of the <a href="#"><b>Error Report Here.</b></a>  The errors must be deleted or corrected and re-uploaded to continue.</p>
+					</br>
+					<table class="table table-hover">
+				        <tbody>
+				          <tr>
+				            <td><span class="badge badge-success">1,200</span>Successful Cheese Steaks</td>
+				            <td> </td>
+				          </tr>
+				          <tr class="last">
+				          	<td><span class="badge badge-danger">17</span>Errors</td>
+				            <td class="right">
+				            <a href="#" type="button" class="download btn-icon-primary" data-toggle="tooltip" title="Download"> <i class="fa fa-cloud-download download"></i> Download Errors</a></td>
+				          </tr>
+				        </tbody>
+			      	</table>
+			      	<br>
+			      	<p>You can either ignore the errors and continue, or fix the errors and re-upload your file.</p>
+			      	<input type="checkbox" class="checkbox">Ignore errors and continue.
+			      	<hr>
+				</div>
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a href="import.html" type="button" class="btn btn-lg btn-default pull-left"><i class="fa fa-chevron-left"></i>Previous</a>
+					 <!-- Disable Next button until data is verified by clicking "verify"-->
+					<a href="select.html" type="button" class="btn btn-lg btn-green pull-right">Next <i class="fa fa-chevron-right"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- Sidebar -->
+		<div class="col-md-4 sidebar">
+			<div class="panel panel-report">
+			  	<div class="panel-heading">Summary Report</div>
+		  		<div class="panel-body">
+			    	Your file has <h3>1,200</h3> rows.
+			  	</div>
+			</div>
+			</br>
+			<p>Need Help? Read the <a href="#"><b>Documentation</b></a></p>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row no-marg socket">
+			Copyright © 2001 - 2014, Azavea. All rights reserved.
+		</div>
+	</div>
+
+<!-- javascript -->
+	<script type="text/javascript">
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+</body>
+</html>

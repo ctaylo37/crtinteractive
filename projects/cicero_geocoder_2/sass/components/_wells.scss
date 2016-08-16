@@ -1,0 +1,64 @@
+.well {
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 24px 0;
+    background-color: $paper;
+    border: solid 6px $border;
+    border-radius: 0;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+
+    i{
+        display:block;
+        padding:12px;
+        font-size: 30px;
+        opacity: 0.5;
+    }
+}
+
+.well-price {
+    text-align: center;
+    background-color: $light-grey;
+    border: none!important;
+    padding: 30px;
+    border-radius: 0;
+
+    i{
+        display: block;
+        font-size: 30px;
+    }
+
+    p{
+        font-style: italic;
+    }
+}
+
+.well-upload{
+    background-color: transparent;
+    border: 2px dashed #e3e3e3;
+    color: $body;
+    border-radius: 0;
+
+    a{
+        color: $body;
+
+        &:hover{
+            color: $paper;
+        }
+    }
+}
+
+.well-upload:hover{
+    background-color: rgba(83, 168, 200, .8);
+    border: 2px dashed $paper;
+    color: $paper;
+    border-radius: 0;
+}
+
+.callout{
+    font-size: 16px;
+    color: $primary-blue;
+    font-style: italic;
+    font-weight: 200;
+}

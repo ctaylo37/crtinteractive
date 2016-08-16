@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cicero GeoCoder</title>
+	<link rel="icon"
+      type="image/png"
+      href="img/favicon.png">
+	<link href="css/main.css" rel="stylesheet">
+	<script src="js/respond.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="navbar">
+			<div class="">
+				<div class="brand">
+					<a href="import.html"><svg width="190" height="30">
+			          <image xlink:href="img/logo.svg" src="img/logo.png" width="190" height="30"></image>
+			        </svg></a>
+				</div>
+				<div class="nav-wrapper">
+					<div class="nav hidden-xs hidden-sm">
+						<ul class="nav nav-pills">
+						  <li role="presentation"><a href="api.html">Dashboard</a></li>
+						  <li role="presentation"><a href="batch.html">Demo</a></li>
+						  <li class="active" role="presentation"><a href="licensing.html">Batch Processing</a></li>
+						  <li role="presentation"><a href="community.html">Documentation</a></li>
+						  <li role="presentation"><a href="contact.html">Purchase</a></li>
+	  					  <li role="presentation"><a href="index.html">Logout</a></li>
+						</ul>
+					</div>
+					<div class="mobile-navigation visible-xs visible-sm">
+		                <a class="pull-right" data-toggle="modal" data-target="#mobile-menu">
+		                	<i class="fa fa-bars"></i>
+		                </a>
+			        </div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="row toolbar">
+		<div class="container">
+			<div class="col-md-4 col-md-push-8 controls">
+				<a href="projects.html" type="button" class="btn btn-lg btn-ghost btn-projects">My Projects</a>
+				<a href="import.html" type="button" class="btn btn-lg btn-green"><i class="fa fa-plus-circle"></i>Create New Project</a>
+			</div>
+			<div class="col-md-8 col-md-pull-4">
+				<div class="btn-group">
+				  <a href="import.html" type="button" class="btn btn-step">
+				  	<i class="fa fa-cloud-upload"></i>
+				  	Import</a>
+				  <a href="match.html" type="button" class="btn btn-step">
+				  	<i class="fa fa-list-ul"></i>
+				  	Match Fields & Verify</a>
+				  <a href="select.html" type="button" class="active btn btn-step">
+				  	<i class="fa fa-tasks"></i>
+				  	Select Data</a>
+				  <a href="review.html" type="button" class="btn btn-step">
+				  	<i class="fa fa-check"></i>
+				  	Review & Confirm</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content container">
+		<!-- Main Content -->
+		<div class="col-md-8 main">
+			<div class="row no-marg no-pad">
+				<svg width="26" height="13" class="select_tic pull-left">
+				    <image xlink:href="img/select_tic.svg" src="img/select_tic.png" width="26" height="13"/>
+				</svg>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h1>3. Select Data Fields for Stamping</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="well">
+						You informed us that your addresses are located in <strong>USA</strong>.  If not, <a href="#"><b>Change<b></a> here.
+					</div>
+				</div>
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-md-7">
+					<h2>District Stamping - Legislative Levels</h2>
+					</br>
+					<p><input type="checkbox" class="checkbox"><strong>Select All</strong></p>
+					<p><input type="checkbox" class="checkbox">National Congressional - Lower Chamber</p>
+					<p><input type="checkbox" class="checkbox">State Senate - Upper Chamber</p>
+					<p><input type="checkbox" class="checkbox">State House - Lower Chamber </p>
+					<p><input type="checkbox" class="checkbox">State Executive</p>
+					<p><input type="checkbox" class="checkbox">Local - City Council</p>
+					<p><input type="checkbox" class="checkbox">Local Executive</p>
+				</div>
+				<div class="col-md-5">
+					<div class="well well-price">
+						<h6>$0.0025</h6>
+						<p>per stamp</p>
+					</div>
+					<p><small>* We have city council districts for <a href="#"><b>100 Cities</b></a>.  You will only be charged for actual matches.</small></p>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-md-7">
+					<h2>Elected Official Name with Contact Information</h2>
+					</br>
+					<p><input type="checkbox" class="checkbox"><strong>Select All</strong></p>
+					<p><input type="checkbox" class="checkbox">National Congressional - Lower Chamber</p>
+					<p><input type="checkbox" class="checkbox">State Senate - Upper Chamber</p>
+					<p><input type="checkbox" class="checkbox">State House - Lower Chamber </p>
+					<p><input type="checkbox" class="checkbox">State Executive</p>
+					<p><input type="checkbox" class="checkbox">Local - City Council</p>
+					<p><input type="checkbox" class="checkbox">Local At Large</p>
+					<p><input type="checkbox" class="checkbox">Local Executive</p>
+				</div>
+				<div class="col-md-5">
+					<div class="well well-price">
+						<h6>$0.0050</h6>
+						<p>per stamp</p>
+					</div>
+					<p><small>* For some districts you might get multiple officials per address which would result in multiple rows per address in the output.</small></p>
+					</br>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-md-7">
+					<h2>Social Media Accounts</h2>
+					</br>
+					<p><input type="checkbox" class="checkbox"><strong>Select All</strong></p>
+					<p><input type="checkbox" class="checkbox">Facebook</p>
+					<p><input type="checkbox" class="checkbox">Twitter</p>
+					<p><input type="checkbox" class="checkbox">Youtube</p>
+					<p><input type="checkbox" class="checkbox">LinkedIn</p>
+					<p><input type="checkbox" class="checkbox">Project Vote Smart</p>
+					<p><input type="checkbox" class="checkbox">RSS</p>
+					<p><input type="checkbox" class="checkbox">Instagram</p>
+					<p><input type="checkbox" class="checkbox">Pinterest</p>
+					<p><input type="checkbox" class="checkbox">Tumblr</p>
+					<p><input type="checkbox" class="checkbox">Google +</p>
+				</div>
+				<div class="col-md-5">
+					<div class="well well-price">
+						<h6>$0.0025</h6>
+						<p>per stamp</p>
+					</div>
+					<p><small>* View <a href="#"><b>Social Media Adoption rates</b></a> for officials in the Cicero Database.</small></p>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-md-7">
+					<h2>Non-Legislative District Stamping</h2>
+					</br>
+					<p><input type="checkbox" class="checkbox"><strong>Select All</strong></p>
+					<p><input type="checkbox" class="checkbox">County</p>
+					<p><input type="checkbox" class="checkbox">School District</p>
+					<p><input type="checkbox" class="checkbox">Watersheds</p>
+					<p><input type="checkbox" class="checkbox">Census Tracts</p>
+					<p><input type="checkbox" class="checkbox">Census Block Groups</p>
+				</div>
+				<div class="col-md-5">
+					<div class="well well-price">
+						<h6>$0.0025</h6>
+						<p>per stamp</p>
+					</div>
+					</br>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a href="match.html" type="button" class="btn btn-lg btn-default pull-left"><i class="fa fa-chevron-left"></i>Previous</a>
+					<a href="review.html" type="button" class="btn btn-lg btn-green pull-right">Next <i class="fa fa-chevron-right"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- Sidebar -->
+		<div class="col-md-4 sidebar">
+			<div class="row">
+				<div class="panel panel-report">
+				  	<div class="panel-heading">Summary Report</div>
+			  		<div class="panel-body">
+				    	<p>Your file has <strong>1,200</strong> rows.</p>
+				  	</div>
+				</div>
+			</div>
+			</br>
+			<div class="row">
+				<div class="panel panel-report">
+				  	<div class="panel-heading">Your Order</div>
+			  		<div class="panel-body">
+				    	<table class="table-dashed table-hover">
+					        <tbody>
+					          	<tr>
+						            <td><h4>Geocoding</h4><p>1,200 records x $0.0125</p></td>
+						            <td><span class="pull-right"><h3>$15.00</h3></span></td>
+					          	</tr>
+					          	<tr>
+						            <td><h4>Legislative Districts</h4><p>1,200 records x $0.0025</p></td>
+						            <td><span class="pull-right"><h3>$3.00</h3></span></td>
+					          	</tr>
+					          	<tr>
+						            <td><h4>Representative Info</h4><p>1,200 records x $0.0050</p></td>
+						            <td><span class="pull-right"><h3>$6.00</h3></span></td>
+					          	</tr>
+					          	<tr>
+						            <td><h4>Social Media</h4><p>1,200 records x $0.0050</p></td>
+						            <td><span class="pull-right danger"><h3>-$6.00</h3></span></td>
+					          	</tr>
+					          	<tr>
+						            <td><h4>Non-Legislative Districts</h4><p>1,200 records x $0.0025</p></td>
+						            <td><span class="pull-right"><h3>$3.00</h3></span></td>
+					          	</tr>
+					          	<tr class="discount">
+						            <td><h4>Discount</h4><p>Over 100,000 Records</p></td>
+						            <td><span class="pull-right"><h3>$25.00</h3></span></td>
+					          	</tr>
+					          	<tr class="last">
+						            <td><h4>Total <i class="fa fa-info-circle btn-icon-primary" data-toggle="tooltip" data-placement="top" title="You will only be charged for successful matches.  We will email you with the final details."></i></h4></td>
+						            <td><h3 class="pull-right">$33.00</h3></td>
+					          	</tr>
+					        </tbody>
+				      	</table>
+				  	</div>
+				</div>
+			</div>
+
+			<br>
+			<p>Need Help? Read the <a href="#"><b>Documentation</b></a></p>
+			<br>
+			<p>Projects must be a minimum of <b>$50 USD</b></p>
+
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row no-marg socket">
+			Copyright © 2001 - 2014, Azavea. All rights reserved.
+		</div>
+	</div>
+
+<!-- javascript -->
+	<script type="text/javascript">
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+</body>
+</html>

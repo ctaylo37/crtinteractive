@@ -1,0 +1,30 @@
+.border-right{
+  border-right: solid 1px $light-grey;
+}
+
+.border-left{
+  border-left: solid 1px $light-grey;
+}
+
+.dash-break{
+  border-top: 2px dotted $border;
+  margin: 24px 0;
+}
+.dash-break-min{
+  border-top: 2px dotted $border;
+  margin:0;
+}
+.break{
+  border-top: solid 1px $border;
+  margin: 24px 0;
+}
+.spacer{
+  margin-top: 24px;
+}
+.spacer-lg{
+  margin-top: 48px;
+}
+.confirm-box{
+  border:solid 1px $border;
+  padding:24px 48px 48px 48px;
+}

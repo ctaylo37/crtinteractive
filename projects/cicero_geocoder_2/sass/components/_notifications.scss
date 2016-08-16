@@ -1,0 +1,66 @@
+.alert{
+    font-size: 14px;
+
+    i{
+        padding-right: 12px;
+    }
+}
+
+.alert-success{
+    color: #5FB64D;
+    border-radius: 4px;
+}
+
+.alert-danger{
+    color: #F96464;
+    border-radius: 4px;
+}
+
+.success{
+    color: #5FB64D;
+    font-size: 18px;
+    padding-right: 12px;
+}
+
+.errors{
+    color: #F96464;
+    font-size: 18px;
+    padding-right: 12px;
+}
+
+.badge-danger{
+    color: $paper;
+    background-color: #F96464;
+    margin-right: 12px;
+}
+
+.badge-success{
+    color: $paper;
+    background-color: #5FB64D;
+    margin-right: 12px;
+}
+
+.step-review{
+    min-height:60px;
+    background-image: url('../img/review_step.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index:1;
+    margin: 0 0 2rem 0;
+}
+.step-payment{
+    min-height:60px;
+    background-image: url('../img/payment_step.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index:1;
+    margin: 0 0 2rem 0;
+}
+.step-confirm{
+    min-height:60px;
+    background-image: url('../img/confirm_step.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index:1;
+    margin: 0 0 2rem 0;
+}

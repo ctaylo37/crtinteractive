@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cicero GeoCoder</title>
+	<link rel="icon"
+      type="image/png"
+      href="img/favicon.png">
+	<link href="css/main.css" rel="stylesheet">
+	<script src="js/respond.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="navbar">
+			<div class="">
+				<div class="brand">
+					<a href="import.html"><svg width="190" height="30">
+			          <image xlink:href="img/logo.svg" src="img/logo.png" width="190" height="30"></image>
+			        </svg></a>
+				</div>
+				<div class="nav-wrapper">
+					<div class="nav hidden-xs hidden-sm">
+						<ul class="nav nav-pills">
+						  <li role="presentation"><a href="api.html">Dashboard</a></li>
+						  <li role="presentation"><a href="batch.html">Demo</a></li>
+						  <li class="active" role="presentation"><a href="licensing.html">Batch Processing</a></li>
+						  <li role="presentation"><a href="community.html">Documentation</a></li>
+						  <li role="presentation"><a href="contact.html">Purchase</a></li>
+	  					  <li role="presentation"><a href="index.html">Logout</a></li>
+						</ul>
+					</div>
+					<div class="mobile-navigation visible-xs visible-sm">
+		                <a class="pull-right" data-toggle="modal" data-target="#mobile-menu">
+		                	<i class="fa fa-bars"></i>
+		                </a>
+			        </div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="row toolbar">
+		<div class="container">
+			<div class="col-md-8 pull-right controls">
+				<a href="projects.html" type="button" class="btn btn-lg btn-ghost btn-projects">My Projects</a>
+				<a href="import.html" type="button" class="btn btn-lg btn-green"><i class="fa fa-plus-circle"></i>Create New Project</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="content container">
+		<!-- Main Content -->
+		<div class="col-md-12 main-full">
+			<div class="row">
+				<div class="col-md-6">
+					<h1>New Member Project</h1>
+					<div class="spacer-lg"> </div>
+				</div>
+				<div class="col-md-6 text-right">
+					<a href="#" type="button" class="btn btn-md btn-default"><i class="fa fa-cloud-download"></i> Download CSV</a>
+					<a href="#" type="button" class="btn btn-md btn-default"><i class="fa fa-print"></i> Print Receipt</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 ">
+					<div class="col-md-12">
+						<div class="row">
+							<h2>Details</h2>
+							<div class="spacer"></div>
+						</div>
+						<table class="table-dashed table-hover">
+					        <tbody>
+					          	<tr>
+						            <td>Total Records Imported</td>
+						            <td><h2 class="pull-right"><strong>1,200</strong></h2></td>
+					          	</tr>
+				           		<tr>
+						            <td>Date Created</td>
+						            <td><h2 class="pull-right"><strong>06-18-2014</strong></h2></td>
+					          	</tr>
+					          	<tr>
+						            <td>Total Cost</td>
+						            <td><h2 class="pull-right"><strong>...</strong></h2></td>
+					          	</tr>
+					          	<tr>
+						            <td>Status</td>
+						            <td><h2 class="pull-right"><strong>Pending</strong></h2></td>
+					          	</tr>
+					        </tbody>
+				      	</table>
+					</div>
+		      	</div>
+		      	<div class="col-md-6 ">
+					<div class="col-md-12">
+						<div class="row">
+							<h2>Process Summary</h2>
+							<div class="spacer"></div>
+						</div>
+						<table class="table-dashed table-hover">
+					        <tbody>
+					          	<tr>
+						            <td>Records geocoded successfully:</td>
+						            <td><span class="pull-right badge badge-success">1,200</span></td>
+					          	</tr>
+				           		<tr>
+						            <td>Records stamped with State Upper districts:</td>
+						            <td><span class="pull-right badge badge-success">1,200</span></td>
+					          	</tr>
+					          	<tr>
+						            <td>Records stamped with State Lower districts:</td>
+						            <td><span class="pull-right badge badge-success">1,200</td>
+					          	</tr>
+					          	<tr>
+						            <td>Records stamped with Local districts:</td>
+						            <td><span class="pull-right badge badge-success">1,200</span></td>
+					          	</tr>
+					          	<tr>
+						            <td>Rows with error messages:</td>
+						            <td><span class="pull-right badge badge-danger">50</span></td>
+					          	</tr>
+					        </tbody>
+				      	</table>
+					</div>
+		      	</div>
+			</div>
+
+			<div class="spacer-lg"> </div>
+
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row no-marg socket">
+			Copyright © 2001 - 2014, Azavea. All rights reserved.
+		</div>
+	</div>
+
+<!-- javascript -->
+	<script type="text/javascript">
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+</body>
+</html>
