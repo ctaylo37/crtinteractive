@@ -10920,7 +10920,13 @@ a.hero-over.h2 {
   flex: 1;
 }
 
-/* line 47, ../sass/pages/_projects.scss */
+/* line 46, ../sass/pages/_projects.scss */
+.light-glass {
+  background-color: rgba(0, 0, 0, 0.3);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+/* line 52, ../sass/pages/_projects.scss */
 .project-thumb {
   height: 400px;
   background-position: center center;
@@ -10928,13 +10934,13 @@ a.hero-over.h2 {
   background-repeat: no-repeat;
 }
 
-/* line 55, ../sass/pages/_projects.scss */
+/* line 60, ../sass/pages/_projects.scss */
 .project-pagination {
   display: block;
   width: 100%;
   position: relative;
 }
-/* line 60, ../sass/pages/_projects.scss */
+/* line 65, ../sass/pages/_projects.scss */
 .project-pagination .left {
   display: inline-block;
   height: 200px;
@@ -10942,12 +10948,12 @@ a.hero-over.h2 {
   float: left;
 }
 @media (min-width: 768px) {
-  /* line 60, ../sass/pages/_projects.scss */
+  /* line 65, ../sass/pages/_projects.scss */
   .project-pagination .left {
     width: 50%;
   }
 }
-/* line 71, ../sass/pages/_projects.scss */
+/* line 76, ../sass/pages/_projects.scss */
 .project-pagination .right {
   display: inline-block;
   height: 200px;
@@ -10955,66 +10961,66 @@ a.hero-over.h2 {
   float: right;
 }
 @media (min-width: 768px) {
-  /* line 71, ../sass/pages/_projects.scss */
+  /* line 76, ../sass/pages/_projects.scss */
   .project-pagination .right {
     width: 50%;
   }
 }
 
-/* line 86, ../sass/pages/_projects.scss */
+/* line 91, ../sass/pages/_projects.scss */
 a.view-all {
   display: block;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.74);
 }
-/* line 91, ../sass/pages/_projects.scss */
+/* line 96, ../sass/pages/_projects.scss */
 a.view-all:hover {
   background-color: #ceae11;
   color: #ffffff;
   text-decoration: none;
 }
 
-/* line 100, ../sass/pages/_projects.scss */
+/* line 105, ../sass/pages/_projects.scss */
 #watch-hero {
   background-image: url("../img/home_slides/hero_watch.png");
 }
 
-/* line 104, ../sass/pages/_projects.scss */
+/* line 109, ../sass/pages/_projects.scss */
 #cicero-hero {
   background-image: url("../img/home_slides/hero_cicero.png");
 }
 
-/* line 108, ../sass/pages/_projects.scss */
+/* line 113, ../sass/pages/_projects.scss */
 #trca-hero {
   background-image: url("../img/home_slides/hero_trca.png");
 }
 
-/* line 112, ../sass/pages/_projects.scss */
+/* line 117, ../sass/pages/_projects.scss */
 #ai-hero {
   background-image: url("../img/home_slides/hero_ai.png");
 }
 
-/* line 116, ../sass/pages/_projects.scss */
+/* line 121, ../sass/pages/_projects.scss */
 #roc-hero {
   background-image: url("../img/home_slides/hero_roc.png");
 }
 
-/* line 120, ../sass/pages/_projects.scss */
+/* line 125, ../sass/pages/_projects.scss */
 #vip-hero {
   background-image: url("../img/home_slides/hero_vip.png");
 }
 
-/* line 124, ../sass/pages/_projects.scss */
+/* line 129, ../sass/pages/_projects.scss */
 #pwd-hero {
   background-image: url("../img/home_slides/hero_pwd.png");
 }
 
-/* line 128, ../sass/pages/_projects.scss */
+/* line 133, ../sass/pages/_projects.scss */
 #aitv-hero {
   background-image: url("../img/home_slides/hero_aitv.png");
 }
 
-/* line 132, ../sass/pages/_projects.scss */
+/* line 137, ../sass/pages/_projects.scss */
 #mos-hero {
   background-image: url("../img/home_slides/hero_mos.png");
 }
