@@ -28,11 +28,6 @@ a.hero-over{
   justify-content: center;
   text-decoration: none;
 
-  label{
-    background-color: $brand-primary;
-    padding: 8px;
-  }
-
   &:hover{
     opacity: 1;
     color: $paper;
