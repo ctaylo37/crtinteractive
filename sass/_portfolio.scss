@@ -36,32 +36,6 @@
 		border-top-right-radius: 3px;
 		border-bottom-right-radius: 3px;
 	}
-
-	@media(max-width: 768px){
-
-		.crt-card-description{
-			border-top-left-radius: 3px;
-			border-top-right-radius: 3px;
-		}
-
-		.crt-card-img{
-			border-bottom-right-radius: 3px;
-			border-bottom-left-radius: 3px;
-		}
-	}
-
-	@media(max-width: 575px){
-
-		.crt-card-description{
-			border-top-left-radius: 0px;
-			border-top-right-radius: 0px;
-		}
-
-		.crt-card-img{
-			border-bottom-right-radius: 0px;
-			border-bottom-left-radius: 0px;
-		}
-	}
 }
 
 .portfolio-card{

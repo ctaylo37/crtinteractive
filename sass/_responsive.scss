@@ -1,0 +1,43 @@
+@media(max-width: 768px){
+
+	.crt-card-description{
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		padding: 20px!important;
+	}
+
+	.crt-card-img{
+		border-bottom-right-radius: 3px;
+		border-bottom-left-radius: 3px;
+	}
+
+	h1{
+		font-size: 2rem!important;
+	}
+
+	#resume{
+		padding: 20px;
+
+		ul{
+			padding-left: 3rem;
+		}
+	}
+
+	.pl-5{
+		padding-left: 1.5rem!important;
+	}
+
+}
+
+@media(max-width: 575px){
+
+	.crt-card-description{
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+
+	.crt-card-img{
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+}
