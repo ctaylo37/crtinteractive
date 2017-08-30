@@ -1,6 +1,6 @@
 ---
-title: PayPal Experimentation Platform
-description: The PayPal Experimentation Lifecycle Management & Operations (ELMO) platform was a redesign of a legacy platform internal to PayPal.  The application is used for creating ramp and AB experiments on the PayPal platoform to test new experiences.
+title: PayPal Experimentation Lifecycle Management & Ops (ELMO)
+description: The PayPal Experimentation Lifecycle Management & Operations (ELMO) platform was a redesign of a legacy application internal to PayPal.  The application is used for creating ramp and AB experiments to test new experiences across all PayPal products.
 layout: default
 permalink: /elmo
 ---
@@ -47,12 +47,11 @@ permalink: /elmo
 
 				<div id="step-1" class="col-md-12 mt-5">
 					<h4>Step 1: Define the MVP</h4>
-					<p>I worked very closely with the Product Manager on this project to define the MVP for our redesign.  We identified two primary goals to define the success of our project:</p>
+					<p>I worked very closely with the Product Manager on this project to define the MVP for our redesign.  We identified three primary goals to define the success of our project:</p>
 					<ol>
 						<li>Reduce the time to <abbr title="The amount of time it takes to setup an experiment and push to production." data-toggle="tooltip">go live</abbr> from <strong>one week</strong> to <strong>less than five minutes</strong>.</li>
 						<li>Reduce the amount of time required to derive insights from an experiment from <strong>three weeks</strong> to <strong>less than 24 hours</strong>.</li>
-						<li></li>
-						<li>Allow product teams to create and manage their own experiments rather than relying on test managers (self service).</li>
+						<li>Allow product teams to create and manage their own experiments rather than relying on test managers (<strong>self service</strong>).</li>
 					</ol>
 					<div class="crt-card p-0 mt-4">
 						<img src="{{ site.baseurl }}/img/elmo-1.png" class="img-fluid">
@@ -64,14 +63,14 @@ permalink: /elmo
 							<h5>Challenges</h5>
 							<ul>
 								<li>Deciding which features were most critical to our customers and build those first.</li>
-								<li>We wanted to move to a self service model, which meant finding and interviewing new customers that had never worked with the tool before.  This ade it difficult to determine wht they could live without.</li>
+								<li>We wanted to move to a self service model, which meant finding and interviewing new customers that had never worked with the application before.</li>
 							</ul>
 						</div>
 						<div class="col-md-6">
 							<h5>Takeaways</h5>
 							<ul>
-								<li>It was tempting to start by redesigning the create and manage workflows, but we decided to build the insights feature first, which was missing from the previous tool. </li>
-								<li>I found that "viable" was the key component of MVP.  Finding the balance between a shippable number of features and an application that people will enjoy using is a magical process.</li>
+								<li>It was tempting to start by redesigning the create and manage workflows, but we decided to build the insights feature first, which was missing from the previous application. </li>
+								<li>I found that "viable" was the key component of MVP.  Finding the balance between a shippable number of features and an application that people would enjoy using was a magical process.</li>
 							</ul>
 						</div>
 					</div>
@@ -81,8 +80,8 @@ permalink: /elmo
 
 				<div id="step-2" class="col-md-12 mt-5">
 					<h4>Step 2: Interview and Sketch with Customers</h4>
-					<p>In the past I have created user persona's at the start of a project.  A shiny poster of faces with goals and motivations that looks good on a wall, but quickly lose their impact as the project takes off.  The poster can't remind you to think of them, or provide feedback, or insert ideas into the design process, which is why we decided from week one to include customers in our journey once a week.</p>
-					<p>Sessions included interviews, design reviews, and assessing their current tools and workflows for insights.</p>
+					<p>In the past I have created user personas at the start of a project.  A shiny poster of faces with goals and motivations that looks good on a wall, but quickly lose their impact as the project takes off.  The poster can't remind you to think of them, or provide feedback, or insert ideas into the design process, which is why we decided from week one to include customers in our journey once a week.</p>
+					<p>Weekly customer sessions included interviews, design reviews, and assessing their current tools and workflows for insights.</p>
 					<div class="crt-card p-0 mt-4">
 						<img src="{{ site.baseurl }}/img/elmo-2.png" class="img-fluid">
 					</div>
@@ -134,7 +133,7 @@ permalink: /elmo
 						<div class="col-md-6">
 							<h5>Takeaways</h5>
 							<ul>
-								<li>Presenting a customer a protoype and asking them to complete a task yeilds better feedback than asking a customer what they want or need while sitting in an interview.</li>
+								<li>Presenting a protoype to a customer and asking them to complete a task yeilds better feedback than asking a customer what they want or need while sitting in an interview.</li>
 							</ul>
 						</div>
 					</div>
@@ -144,7 +143,7 @@ permalink: /elmo
 
 				<div id="step-4" class="col-md-12 mt-5">
 					<h4>Step 4: Visual Design</h4>
-					<p>During the protoyping phase I began to gain an understanding of what components we would need to build the UI.  For the visual design phase I started by designing the UI in Adobe XD to get the look and feel correct, and then built the HTML components using Bootstrap.  This turned into me building a component library with Bootstrap and self hosting it for internal PayPal apps to use.</p>
+					<p>During the protoyping phase I began to gain an understanding of what components we would need to build the UI.  For the visual design phase I started in Adobe XD to get the look and feel correct, and then built the HTML components using Bootstrap.  This turned into me building a component library with Bootstrap and self hosting it for internal PayPal apps to use.</p>
 					
 					<h5>Visual Design from Adobe</h5>
 					<div class="crt-card p-0 mt-4">
@@ -176,7 +175,7 @@ permalink: /elmo
 						<div class="col-md-6">
 							<h5>Takeaways</h5>
 							<ul>
-								<li>A lot of the time you hear horror stories about designers and developers not gettig along because of pie in th sky ideas.  Because I built the UI components alongside the visual design work, I was guaranteed the final product would match the designs.</li>
+								<li>A lot of the time you hear horror stories about designers and developers not getting along because of pie in th sky ideas.  Because I built the UI components alongside the visual design work, I was guaranteed the final product would match the designs.</li>
 								<li>I've found that learning code helps bridge the communication barrier between the designer and developer.  It also establishes a mutual respect for one another's craft.</li>
 							</ul>
 						</div>

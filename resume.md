@@ -12,7 +12,7 @@ permalink: resume
 			<div class="col-md-8 mb-3">
 				<h1 class="m-0">Christopher Taylor</h1>
 				<p class="lead m-0">Sr. User Experience Designer at PayPal</p>
-				<p class="m-0"><a href="www.ctaylo37.github.io" target="_blank">www.ctaylo37.github.io</a></p>
+				<p class="m-0"><a href="https://ctaylo37.github.io/portfolio" target="_blank">www.ctaylo37.github.io</a></p>
 				<p class="m-0"><a href="mailto:crtcreative@gmail.com" target="_blank">crtcreative@gmail.com</a></p>
 			</div>
 			<div class="col-md-4 text-right">
@@ -53,10 +53,9 @@ permalink: resume
 				<ul>
 					<li>Responsible for design vision, research, UX design, visual design, and prototyping at market-leading iPaaS company.</li>
 					<li>Interacted with software development teams on a day to day basis to design and build engaging user experiences.</li>
-					<li>Executes projects on time and on budget.</li>
 					<li>Utilized an entrepreneurial spirit to drive change and introduced new ways of design thinking to a historically developer centric company.</li>
 					<li>Introduced new design techniques to Dell Boomi, such as user testing, personas, and journey maps.</li>
-					<li>Responsible for building and maintaining a design organization within Dell Boomi, including the design of a living style guide, design team libraries, and crosscompany design discussions.</li>
+					<li>Responsible for building and maintaining a design organization within Dell Boomi, including the design of a living style guide, design team libraries, and company-wide design discussions.</li>
 				</ul>
 
 				<!-- Azavea -->
@@ -65,7 +64,7 @@ permalink: resume
 				<ul>
 					<li>Interacted with software development teams on a day to day basis to design and build engaging user experiences for projects that focus on creating more sustainable communities.</li>
 					<li>Responsible for research, UX design, visual design, and front-end development including CSS, HTML, jQuery, and Sass.</li>
-					<li>Led client projects from concept to final delivery and utilized an iterative design process that allowed for quick feedback and validation from the users.</li>
+					<li>Led client projects from concept to final delivery and utilized an iterative design process that allowed for quick feedback and validation from users.</li>
 					<li>Led design workshops for user discovery and persona development to enhance the usability of projects.</li>
 					<li>Managed design team sprint planning and task delegation.</li>
 					<li>Led a bi-weekly company-wide design meeting that introduced the company to new design trends and techniques.</li>
@@ -94,7 +93,7 @@ permalink: resume
 				</ul>
 
 				<!-- 3C -->
-				<h4 class="pl-5 mt-5">Designer (contract) at 3C</h4>
+				<h4 class="pl-5 mt-5">Designer (Contract) at 3C</h4>
 				<p class="pl-5 small text-muted">October 2011 - October 2012</p>
 				<ul>
 					<li>Crafted a brand and web presence that allowed the company to garner respect in a new industry.</li>
@@ -131,7 +130,7 @@ permalink: resume
 				<!-- Meetup -->
 				<h4 class="pl-5 mt-5">Founder & Leader of Philly UI UX Meetup</h4>
 				<p class="pl-5 small text-muted m-0">Nov 2014 – Sep 2016</p>
-				<p class="pl-5"><a href="https://www.meetup.com/Philadelphia-UI-UX-Design-Meetup/" target="_blank">Meetup</a></p>
+				<p class="pl-5"><a href="https://www.meetup.com/Philadelphia-UI-UX-Design-Meetup/" target="_blank">Meetup Website</a></p>
 				<ul>
 					<li>Organized and led UI UX Meetups ranging from portfolio reviews, tutorials, and hackathon style design challenges. </li>
 					<li>Grew the group to over 1000 members.</li>
@@ -174,7 +173,7 @@ permalink: resume
 				<h4 class="pl-5 mt-5">Dell Gold Award</h4>
 				<p class="pl-5 small text-muted m-0">2016</p>
 				<ul>
-					<li>Presented by the General Manager of Dell Boomi for taking on responsibilities outside of normal job duties to design, plan, and manage the design of a new office wing for the research and development teams.</li>
+					<li>Presented by the General Manager of Dell Boomi for taking on responsibilities outside of normal job duties to design, plan, and manage the creation of a new office wing for the research and development teams.</li>
 				</ul>
 
 				<!-- Award -->
@@ -187,7 +186,7 @@ permalink: resume
 				<!-- Award -->
 				<h4 class="pl-5 mt-5">Philly Geek Award Nominee</h4>
 				<p class="pl-5 small text-muted m-0">2016</p>
-				<p class="pl-5"><a href="https://www.phillygeekawards.com/nominees/stormwater-credits-explorer/" target="_blank">Nomination</a></p>
+				<p class="pl-5"><a href="https://www.phillygeekawards.com/nominees/stormwater-credits-explorer/" target="_blank">Nomination Website</a></p>
 				<ul>
 					<li>I designed the user experience & visual design for the Stormwater Interactive tool for the Philadelphia Water Department. This project was developed by the team at Azavea and nominated for a 2016 Philly Geek Award.</li>
 				</ul>				

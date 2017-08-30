@@ -9,6 +9,10 @@ permalink: /portfolio
 <div class="container">
 	<div class="row">
 	
+		<div class="col-md-12 mb-5">
+			<h5 class="text-muted">Select Works</h5>
+		</div>
+
 		<!-- ELMO -->
 		<div class="col-md-12 mb-5">
 			<a href="{{ site.baseurl }}/elmo">
@@ -136,6 +140,10 @@ permalink: /portfolio
 					</div>
 				</div>
 			</a>
+		</div>
+
+		<div class="col-md-12 my-5 text-muted">
+			<h5>More work can be seen at <a href="http://be.net/crtcreative" target="_blank"><strong>be.net/crtcreative</strong></a></h5>
 		</div>
 
 	</div>
