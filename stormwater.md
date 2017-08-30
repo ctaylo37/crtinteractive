@@ -112,31 +112,31 @@ permalink: /stormwater
 					<h5>Walkthrough</h5>
 
 					<div class="mt-4">
-						<img src="{{ site.baseurl }}/img/stormwater-01.svg" class="img-fluid">
+						<img src="{{ site.baseurl }}/img/sw-1.png" class="img-fluid">
 					</div>
 					<div class="mt-4">
-						<img src="{{ site.baseurl }}/img/stormwater-02.svg" class="img-fluid">
+						<img src="{{ site.baseurl }}/img/sw-2.png" class="img-fluid">
 					</div>
 					<div class="mt-4">
-						<img src="{{ site.baseurl }}/img/stormwater-03.svg" class="img-fluid">
+						<img src="{{ site.baseurl }}/img/sw-3.png" class="img-fluid">
 					</div>
 					<div class="mt-4">
-						<img src="{{ site.baseurl }}/img/stormwater-04.svg" class="img-fluid">
+						<img src="{{ site.baseurl }}/img/sw-4.png" class="img-fluid">
 					</div>
 					<div class="mt-4">
-						<img src="{{ site.baseurl }}/img/stormwater-05.svg" class="img-fluid">
+						<img src="{{ site.baseurl }}/img/sw-5.png" class="img-fluid">
 					</div>
 					<div class="mt-4">
-						<img src="{{ site.baseurl }}/img/stormwater-06.svg" class="img-fluid">
+						<img src="{{ site.baseurl }}/img/sw-6.png" class="img-fluid">
 					</div>
 					<div class="mt-4">
-						<img src="{{ site.baseurl }}/img/stormwater-07.svg" class="img-fluid">
+						<img src="{{ site.baseurl }}/img/sw-7.png" class="img-fluid">
 					</div>
 					<div class="mt-4">
-						<img src="{{ site.baseurl }}/img/stormwater-08.svg" class="img-fluid">
+						<img src="{{ site.baseurl }}/img/sw-8.png" class="img-fluid">
 					</div>
 					<div class="mt-4">
-						<img src="{{ site.baseurl }}/img/stormwater-09.svg" class="img-fluid">
+						<img src="{{ site.baseurl }}/img/sw-9.png" class="img-fluid">
 					</div>
 
 					<div class="row mt-4">
@@ -161,15 +161,12 @@ permalink: /stormwater
 				<div id="step-4" class="col-md-12 mt-5">
 					<h4>Step 4: Illustration System</h4>
 					<p>The final illustrations were broken down into components that could be used for implementation.</p>
-
-					<h5></h5>
-					
-					<img src="{{ site.baseurl }}/img/stormwater-il-1.svg" class="img-fluid d-block my-5">					
-					<img src="{{ site.baseurl }}/img/stormwater-il-2.svg" class="img-fluid d-block my-5">					
-					<img src="{{ site.baseurl }}/img/stormwater-il-3.svg" class="img-fluid d-block my-5">					
-					<img src="{{ site.baseurl }}/img/stormwater-il-4.svg" class="img-fluid d-block my-5">					
-					<img src="{{ site.baseurl }}/img/stormwater-il-5.svg" class="img-fluid d-block my-5">
-					
+					<img src="{{ site.baseurl }}/img/sw-il-1.png" class="img-fluid d-block my-5">					
+					<img src="{{ site.baseurl }}/img/sw-il-2.png" class="img-fluid d-block my-5">					
+					<img src="{{ site.baseurl }}/img/sw-il-3.png" class="img-fluid d-block my-5">					
+					<img src="{{ site.baseurl }}/img/sw-il-4.png" class="img-fluid d-block my-5">					
+					<img src="{{ site.baseurl }}/img/sw-il-5.png" class="img-fluid d-block my-5">
+					<img src="{{ site.baseurl }}/img/sw-il-6.png" class="img-fluid d-block my-5">
 				</div>
 
 				<div id="more" class="col-md-12 my-5">

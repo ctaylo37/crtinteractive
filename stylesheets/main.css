@@ -369,11 +369,6 @@ strong {
   border-bottom-right-radius: 3px;
 }
 
-/* line 41, ../sass/_portfolio.scss */
-.portfolio-card {
-  min-height: 500px;
-}
-
 @media (max-width: 768px) {
   /* line 3, ../sass/_responsive.scss */
   .crt-card-description {
