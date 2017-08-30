@@ -1,0 +1,31 @@
+<div class="container">
+	<div id="crt-header" class="row">
+		<div id="crt-brand" class="col-md-auto">
+			<a href="{{ site .baseurl }}/"><h4 class="m-0"><i class="icon-ctaylor"></i> Christopher Taylor</h4></a>
+		</div>
+		<div class="col-md">
+			<ul id="crt-tabs" class="nav justify-content-center">
+				<li class="nav-item">
+		      <a href="{{ site.baseurl }}/" {% if page.title == 'About' %} class="active nav-link" {% endif %}>About</a>
+		    </li>
+		    <li class="nav-item">
+		      <a href="{{ site.baseurl }}/portfolio" {% if page.title == 'Portfolio' %} class="active nav-link" {% endif %}>Portfolio</a>
+		    </li>
+		    <li class="nav-item">
+		      <a href="{{ site.baseurl }}/resume" {% if page.title == 'Resume' %} class="active nav-link" {% endif %}>Resume</a>
+		    </li>
+			</ul>
+		</div>
+		<div id="crt-social" class="col-md-auto hidden-sm-down">
+			<h4 class="d-inline-block m-0">
+				<a href="https://www.linkedin.com/in/christopher-taylor-5ab209133/" target="_blank"><i class="icon-linkedin"></i></a>
+			</h4>
+			<h4 class="d-inline-block m-0">
+				<a href="https://www.behance.net/crtcreative" target="_blank"><i class="icon-behance"></i></a>
+			</h4>
+			<h4 class="d-inline-block m-0">
+				<a href="https://github.com/ctaylo37" target="_blank"><i class="icon-github"></i></a>
+			</h4>
+		</div>
+	</div>
+</div>

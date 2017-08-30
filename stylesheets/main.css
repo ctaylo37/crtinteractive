@@ -1,0 +1,390 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,400,700");
+@font-face {
+  font-family: 'fontello';
+  src: url("../font/fontello.eot?72651288");
+  src: url("../font/fontello.eot?72651288#iefix") format("embedded-opentype"), url("../font/fontello.woff2?72651288") format("woff2"), url("../font/fontello.woff?72651288") format("woff"), url("../font/fontello.ttf?72651288") format("truetype"), url("../font/fontello.svg?72651288#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?72651288#fontello') format('svg');
+  }
+}
+*/
+/* line 23, ../sass/_fontello.scss */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+/* line 58, ../sass/_fontello.scss */
+.icon-behance:before {
+  content: '\e800';
+}
+
+/* '' */
+/* line 59, ../sass/_fontello.scss */
+.icon-github:before {
+  content: '\e802';
+}
+
+/* '' */
+/* line 60, ../sass/_fontello.scss */
+.icon-linkedin:before {
+  content: '\e803';
+}
+
+/* '' */
+/* line 61, ../sass/_fontello.scss */
+.icon-ctaylor:before {
+  content: '\e804';
+}
+
+/* '' */
+/* line 62, ../sass/_fontello.scss */
+.icon-up:before {
+  content: '\f176';
+}
+
+/* '' */
+/* line 1, ../sass/_base.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 2;
+  color: #2b3e51;
+}
+
+/* line 7, ../sass/_base.scss */
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* line 12, ../sass/_base.scss */
+.hide {
+  display: none;
+}
+
+/* line 16, ../sass/_base.scss */
+label {
+  font-weight: 700;
+}
+
+/* line 20, ../sass/_base.scss */
+a {
+  color: rgba(43, 62, 81, 0.7);
+}
+/* line 23, ../sass/_base.scss */
+a:hover, a:focus {
+  color: #2b3e51;
+  text-decoration: none;
+}
+
+/* line 29, ../sass/_base.scss */
+.border-left {
+  border-left: solid 1px rgba(43, 62, 81, 0.1);
+}
+
+/* line 33, ../sass/_base.scss */
+h1, h2, h3, h4, h5 {
+  font-weight: 900;
+}
+
+/* line 37, ../sass/_base.scss */
+p, ul, ol {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  color: rgba(43, 62, 81, 0.7);
+}
+
+/* line 43, ../sass/_base.scss */
+label {
+  color: rgba(43, 62, 81, 0.6);
+}
+
+/* line 47, ../sass/_base.scss */
+hr {
+  border-color: rgba(43, 62, 81, 0.2) !important;
+}
+
+/* line 51, ../sass/_base.scss */
+.badge {
+  background-color: rgba(43, 62, 81, 0.5);
+  color: white;
+}
+
+/* line 56, ../sass/_base.scss */
+.text-muted {
+  color: rgba(43, 62, 81, 0.5) !important;
+}
+
+/* line 60, ../sass/_base.scss */
+strong {
+  color: #2b3e51 !important;
+}
+
+/* line 67, ../sass/_base.scss */
+#project-nav li a {
+  color: rgba(43, 62, 81, 0.5);
+  line-height: 1.5;
+  text-decoration: none;
+}
+/* line 72, ../sass/_base.scss */
+#project-nav li a:hover, #project-nav li a.active, #project-nav li a:focus {
+  color: #2b3e51;
+}
+
+/* line 79, ../sass/_base.scss */
+#resume {
+  padding: 72px;
+}
+/* line 82, ../sass/_base.scss */
+#resume ul {
+  padding-left: 100px;
+}
+/* line 85, ../sass/_base.scss */
+#resume ul li {
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  /* line 92, ../sass/_base.scss */
+  #resume {
+    padding: 24px 0;
+  }
+}
+/* line 97, ../sass/_base.scss */
+.img-shadow {
+  box-shadow: 0 3px 12px rgba(43, 62, 81, 0.2);
+  transition: box-shadow 0.6s ease-in-out;
+}
+/* line 101, ../sass/_base.scss */
+.img-shadow:hover {
+  box-shadow: 0 12px 48px rgba(43, 62, 81, 0.2);
+}
+
+/* line 106, ../sass/_base.scss */
+.footer {
+  border-top: solid 1px rgba(43, 62, 81, 0.1);
+  border-bottom: transparent;
+}
+
+/* line 111, ../sass/_base.scss */
+.bg-primary-10 {
+  background-color: rgba(43, 62, 81, 0.1);
+}
+
+/* line 115, ../sass/_base.scss */
+.border-bottom {
+  border-bottom: solid 1px rgba(43, 62, 81, 0.1);
+}
+
+/* line 119, ../sass/_base.scss */
+#xd-wrapper {
+  width: 1368px;
+  height: 768px;
+}
+/* line 123, ../sass/_base.scss */
+#xd-wrapper iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 129, ../sass/_base.scss */
+#top {
+  background-color: #f7f7f7;
+}
+
+/* line 1, ../sass/_buttons.scss */
+.btn {
+  padding: 18px 24px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* line 7, ../sass/_buttons.scss */
+.btn-primary {
+  background-color: rgba(43, 62, 81, 0.7);
+  border: transparent;
+  color: white;
+}
+/* line 12, ../sass/_buttons.scss */
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #2b3e51;
+  border: transparent;
+  color: white;
+}
+
+/* line 1, ../sass/_header.scss */
+#crt-header, footer {
+  border-bottom: solid 1px rgba(43, 62, 81, 0.1);
+  align-items: middle;
+  margin-bottom: 48px;
+}
+/* line 6, ../sass/_header.scss */
+#crt-header a, footer a {
+  text-decoration: none;
+}
+/* line 12, ../sass/_header.scss */
+#crt-header #crt-brand a, footer #crt-brand a {
+  line-height: 80px;
+  color: #2b3e51;
+}
+/* line 16, ../sass/_header.scss */
+#crt-header #crt-brand a:hover, footer #crt-brand a:hover {
+  color: #2b3e51;
+}
+/* line 21, ../sass/_header.scss */
+#crt-header #crt-brand h4, footer #crt-brand h4 {
+  line-height: 80px;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  /* line 10, ../sass/_header.scss */
+  #crt-header #crt-brand, footer #crt-brand {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+/* line 33, ../sass/_header.scss */
+#crt-header #crt-tabs, footer #crt-tabs {
+  margin-bottom: -3px;
+}
+/* line 38, ../sass/_header.scss */
+#crt-header #crt-tabs li a, footer #crt-tabs li a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 78px;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 0;
+  margin: 0 12px;
+  color: rgba(43, 62, 81, 0.7);
+  border-bottom: solid 5px transparent;
+}
+/* line 49, ../sass/_header.scss */
+#crt-header #crt-tabs li a:hover, #crt-header #crt-tabs li a.active, footer #crt-tabs li a:hover, footer #crt-tabs li a.active {
+  color: #2b3e51;
+}
+/* line 53, ../sass/_header.scss */
+#crt-header #crt-tabs li a.active, footer #crt-tabs li a.active {
+  border-bottom: solid 5px #2b3e51;
+}
+/* line 62, ../sass/_header.scss */
+#crt-header #crt-social a, footer #crt-social a {
+  color: rgba(43, 62, 81, 0.7);
+  margin: 0;
+}
+/* line 66, ../sass/_header.scss */
+#crt-header #crt-social a:hover, footer #crt-social a:hover {
+  color: #2b3e51;
+}
+/* line 71, ../sass/_header.scss */
+#crt-header #crt-social i, footer #crt-social i {
+  line-height: 80px;
+  vertical-align: middle;
+}
+/* line 76, ../sass/_header.scss */
+#crt-header #crt-social .icon-linkedin, footer #crt-social .icon-linkedin {
+  font-size: 19px;
+}
+
+/* line 1, ../sass/_portfolio.scss */
+.crt-card {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(43, 62, 81, 0.2);
+  transition: box-shadow 0.6s ease-in-out;
+  margin-bottom: 48px;
+}
+/* line 8, ../sass/_portfolio.scss */
+.crt-card:hover {
+  box-shadow: 0 12px 48px rgba(43, 62, 81, 0.2);
+}
+/* line 11, ../sass/_portfolio.scss */
+.crt-card:hover .crt-card-img img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: transform 1.05s ease-in-out;
+  -moz-transition: transform 1.05s ease-in-out;
+  -ms-transition: transform 1.05s ease-in-out;
+}
+/* line 25, ../sass/_portfolio.scss */
+.crt-card .crt-card-description {
+  padding: 30px;
+  height: 100%;
+  color: #2b3e51;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+/* line 33, ../sass/_portfolio.scss */
+.crt-card .crt-card-img {
+  height: 100%;
+  overflow: hidden;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+@media (max-width: 768px) {
+  /* line 42, ../sass/_portfolio.scss */
+  .crt-card .crt-card-description {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  /* line 47, ../sass/_portfolio.scss */
+  .crt-card .crt-card-img {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+}
+@media (max-width: 575px) {
+  /* line 55, ../sass/_portfolio.scss */
+  .crt-card .crt-card-description {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  /* line 60, ../sass/_portfolio.scss */
+  .crt-card .crt-card-img {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}
+
+/* line 67, ../sass/_portfolio.scss */
+.portfolio-card {
+  min-height: 500px;
+}
