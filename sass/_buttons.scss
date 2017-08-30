@@ -7,11 +7,25 @@
 .btn-primary{
 	background-color: $primary-70;
 	border: transparent;
+	border-radius: 30px;
 	color: $paper;
 
 	&:hover, &:focus{
 		background-color: $primary;
 		border: transparent;
+		color: $paper;
+	}
+}
+
+.btn-secondary{
+	background-color: $paper;
+	border: solid 2px $primary-70;
+	border-radius: 30px;
+	color: $primary-70;
+
+	&:hover, &:focus{
+		background-color: $primary;
+		border: solid 2px $primary;
 		color: $paper;
 	}
 }

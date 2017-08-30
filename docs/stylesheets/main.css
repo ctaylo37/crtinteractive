@@ -194,22 +194,27 @@ strong {
 }
 
 /* line 105, ../sass/_base.scss */
+.bg-white {
+  background-color: white;
+}
+
+/* line 109, ../sass/_base.scss */
 .border-bottom {
   border-bottom: solid 1px rgba(43, 62, 81, 0.1);
 }
 
-/* line 109, ../sass/_base.scss */
+/* line 113, ../sass/_base.scss */
 #xd-wrapper {
   width: 1368px;
   height: 768px;
 }
-/* line 113, ../sass/_base.scss */
+/* line 117, ../sass/_base.scss */
 #xd-wrapper iframe {
   width: 100%;
   height: 100%;
 }
 
-/* line 119, ../sass/_base.scss */
+/* line 123, ../sass/_base.scss */
 #top {
   background-color: #f7f7f7;
 }
@@ -225,12 +230,27 @@ strong {
 .btn-primary {
   background-color: rgba(43, 62, 81, 0.7);
   border: transparent;
+  border-radius: 30px;
   color: white;
 }
-/* line 12, ../sass/_buttons.scss */
+/* line 13, ../sass/_buttons.scss */
 .btn-primary:hover, .btn-primary:focus {
   background-color: #2b3e51;
   border: transparent;
+  color: white;
+}
+
+/* line 20, ../sass/_buttons.scss */
+.btn-secondary {
+  background-color: white;
+  border: solid 2px rgba(43, 62, 81, 0.7);
+  border-radius: 30px;
+  color: rgba(43, 62, 81, 0.7);
+}
+/* line 26, ../sass/_buttons.scss */
+.btn-secondary:hover, .btn-secondary:focus {
+  background-color: #2b3e51;
+  border: solid 2px #2b3e51;
   color: white;
 }
 
