@@ -68,11 +68,11 @@ permalink: /portfolio
 
 		<!-- Geocoder -->
 		<div class="col-md-12 mb-5">
-			<a href="{{ site.baseurl }}/geocoder">
+			<a href="{{ site.baseurl }}/districtmatch">
 				<div class="row crt-card portfolio-card">
 					<div class="col-md-6 p-0">
 						<div class="crt-card-description d-flex align-items-start flex-column p-5">
-							<h1 class="m-0">Cicero Geocoder</h1>
+							<h1 class="m-0">District Match</h1>
 							<label><span class="badge">2015</span> | Web App</label>
 							<hr>
 							<h4>Roles:</h4>

@@ -200,7 +200,7 @@ theme: light
 		
 		<!-- Sidebar -->
 		<div class="col-md-3 border-left py-4">
-			<div id="project-nav" class="sticky-top hidden-sm-down">
+			<div id="project-sub-nav" class="sticky-top hidden-sm-down">
 				<ul class="project-nav list-unstyled pl-3">
 					<li><a href="#introduction" class="nav-link">Introduction</a></li>
 					<li class="ml-3"><a href="#about" class="nav-link">About</a></li>

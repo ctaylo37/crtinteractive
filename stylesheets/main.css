@@ -150,13 +150,13 @@ strong {
 }
 
 /* line 64, ../sass/_base.scss */
-#project-nav li a {
+#project-sub-nav li a {
   color: rgba(43, 62, 81, 0.5);
   line-height: 1.5;
   text-decoration: none;
 }
 /* line 69, ../sass/_base.scss */
-#project-nav li a:hover, #project-nav li a.active, #project-nav li a:focus {
+#project-sub-nav li a:hover, #project-sub-nav li a.active, #project-sub-nav li a:focus {
   color: #2b3e51;
 }
 

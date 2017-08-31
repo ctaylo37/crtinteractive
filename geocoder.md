@@ -1,8 +1,8 @@
 ---
-title: Geocoder
-description: A seamless way to match your addresses to legislative districts and elected officials.  Simply provide us with your addresses and we’ll return them stamped with the legislative districts and elected official information you requested.
+title: District Match
+description: District Match is a web application that lets you match your addresses to legislative districts and elected officials.  Simply upload your addresses in a CSV and District Match will return them stamped with the legislative districts and elected official information you requested.
 layout: default
-permalink: /geocoder
+permalink: /districtmatch
 theme: light
 ---
 
