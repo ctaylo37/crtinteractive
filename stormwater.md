@@ -3,9 +3,10 @@ title: Stormwater Interactive
 description: Stormwater runoff is a large contributor to water pollution and environmental impacts in large cities. Stormwater interactive is a fun online game that teaches people about stormwater best management practices (BMP's). The application provides a drag and drop interface that allows users to install BMP’s to a property and view the runoff impact.
 layout: default
 permalink: /stormwater
+theme: light
 ---
 
-<div id="top" class="row border-bottom">
+<div id="top" class="row">
 	{% include nav.html%}
 	<div class="container px-0">
 		<div class="row">

@@ -1,14 +1,16 @@
 @media(max-width: 768px){
 
 	.crt-card-description{
-		border-top-left-radius: 3px;
-		border-top-right-radius: 3px;
+		border-bottom-left-radius: 0px!important;
+		border-top-left-radius: 8px!important;
+		border-top-right-radius: 8px!important;
 		padding: 20px!important;
 	}
 
 	.crt-card-img{
-		border-bottom-right-radius: 3px;
-		border-bottom-left-radius: 3px;
+		border-top-right-radius: 0px!important;
+		border-bottom-right-radius: 8px!important;
+		border-bottom-left-radius: 8px!important;
 	}
 
 	h1{
@@ -31,13 +33,7 @@
 
 @media(max-width: 575px){
 
-	.crt-card-description{
-		border-top-left-radius: 0px;
-		border-top-right-radius: 0px;
-	}
-
-	.crt-card-img{
-		border-bottom-right-radius: 0px;
-		border-bottom-left-radius: 0px;
+	body{
+		background-color: #f7f7f7;
 	}
 }

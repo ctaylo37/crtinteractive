@@ -3,9 +3,10 @@ title: PayPal Experimentation Lifecycle Management & Ops (ELMO)
 description: The PayPal Experimentation Lifecycle Management & Operations (ELMO) platform was a redesign of a legacy application internal to PayPal.  The application is used for creating ramp and AB experiments to test new experiences across all PayPal products.
 layout: default
 permalink: /elmo
+theme: light
 ---
 
-<div id="top" class="row border-bottom">
+<div id="top" class="row">
 	{% include nav.html%}
 	<div class="container px-0">
 		<div class="row">
@@ -27,7 +28,7 @@ permalink: /elmo
 					<h1>{{ page.title }}</h1>
 					<label><span class="badge">2017</span> | Web App</label>
 					<div class="d-block">
-						<a href="https://ctaylo37.github.io/elmo-demo/experiments" target="_blank" class="btn btn-primary">Demo</a>
+						<a href="https://ctaylo37.github.io/elmo-demo/experiments" target="_blank" class="btn btn-primary">View Demo</a>
 					</div>
 				</div>
 
@@ -214,7 +215,7 @@ permalink: /elmo
 					<h4>Final Design</h4>
 					<p class="small">Still a work in progress:</p>
 					<div class="d-block">
-						<a href="https://ctaylo37.github.io/elmo-demo/experiments" target="_blank" class="btn btn-primary">Demo</a>
+						<a href="https://ctaylo37.github.io/elmo-demo/experiments" target="_blank" class="btn btn-primary">View Demo</a>
 					</div>
 				</div>
 

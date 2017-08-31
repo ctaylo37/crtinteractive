@@ -45,7 +45,7 @@ permalink: /portfolio
 				<div class="row crt-card portfolio-card">
 					<div class="col-md-6 p-0">
 						<div class="crt-card-description d-flex align-items-start flex-column p-5">
-							<h1 class="m-0">Cicero</h1>
+							<h1 class="m-0">Cicero Website</h1>
 							<label><span class="badge">2015</span> | Website</label>
 							<hr>
 							<h4>Roles:</h4>
@@ -67,7 +67,7 @@ permalink: /portfolio
 		</div>
 
 		<!-- Geocoder -->
-		<!-- <div class="col-md-12 mb-5">
+		<div class="col-md-12 mb-5">
 			<a href="{{ site.baseurl }}/geocoder">
 				<div class="row crt-card portfolio-card">
 					<div class="col-md-6 p-0">
@@ -85,12 +85,12 @@ permalink: /portfolio
 					</div>
 					<div class="col-md-6 p-0">
 						<div class="crt-card-img d-flex align-items-start flex-column">
-							<img src="{{ site.baseurl }}/img/img.png" class="img-fluid mt-auto">
+							<img src="{{ site.baseurl }}/img/slug-geocoder.png" class="img-fluid mt-auto">
 						</div>
 					</div>
 				</div>
 			</a>
-		</div> -->
+		</div>
 
 		<!-- Stormwater -->
 		<div class="col-md-12 mb-5">

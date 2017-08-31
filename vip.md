@@ -3,9 +3,10 @@ title: Voting Information Project
 description: The Voting Information Project is a database of election information made accessible to citizens via mobile device. The application provides an intuitive interface for users to find data about upcoming elections, such as where to vote, directions to polling location, issues on the ballot, and even candidates’ contact information.
 layout: default
 permalink: /vip
+theme: light
 ---
 
-<div id="top" class="row border-bottom">
+<div id="top" class="row">
 	{% include nav.html%}
 	<div class="container px-0">
 		<div class="row">

@@ -3,6 +3,7 @@ body{
 	line-height: 2;
 	color: $primary;
 	overflow-x: hidden; 
+	background-color: #f7f7f7;
 }
 
 .hide{
@@ -121,5 +122,9 @@ strong{
 }
 
 #top{
-	background-color: #f7f7f7;
+	background-color: $primary;
+}
+
+.light-theme{
+	background-color: #ffffff;
 }

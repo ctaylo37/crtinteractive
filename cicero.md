@@ -3,9 +3,10 @@ title: Cicero Website
 description: Cicero is a comprehensive and accurate database of US-based and international elected officials and legislative districts. Cicero enables you to match constituents with their representatives based on address-level data.
 layout: default
 permalink: /cicero
+theme: light
 ---
 
-<div id="top" class="row border-bottom">
+<div id="top" class="row">
 	{% include nav.html%}
 	<div class="container px-0">
 		<div class="row">
