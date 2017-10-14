@@ -16,7 +16,7 @@ permalink: resume
 				<p class="m-0"><a href="mailto:crtcreative@gmail.com" target="_blank">crtcreative@gmail.com</a></p>
 			</div>
 			<div class="col-md-4 text-right">
-				<a href="{{ site.baseurl }}/img/2017_08_30_ChristopherResume.pdf" target="_blank" class="btn btn-primary">Download</a>
+				<a href="{{ site.baseurl }}/img/2017_10_13_ChristopherResume.pdf" target="_blank" class="btn btn-primary">Download</a>
 			</div>
 			<div class="col-md-12 mt-4">
 				<h2>Summary</h2>
