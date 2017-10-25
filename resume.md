@@ -11,12 +11,12 @@ permalink: resume
 		<div class="row">
 			<div class="col-md-8 mb-3">
 				<h1 class="m-0">Christopher Taylor</h1>
-				<p class="lead m-0">Sr. Product Manager (UX) at PayPal</p>
+				<p class="lead m-0">Sr. UX Designer at PayPal</p>
 				<p class="m-0"><a href="https://ctaylo37.github.io/portfolio" target="_blank">www.ctaylo37.github.io</a></p>
 				<p class="m-0"><a href="mailto:crtcreative@gmail.com" target="_blank">crtcreative@gmail.com</a></p>
 			</div>
 			<div class="col-md-4 text-right">
-				<a href="{{ site.baseurl }}/img/2017_10_13_ChristopherResume.pdf" target="_blank" class="btn btn-primary">Download</a>
+				<a href="{{ site.baseurl }}/img/2017_08_30_ChristopherResume.pdf" target="_blank" class="btn btn-primary">Download</a>
 			</div>
 			<div class="col-md-12 mt-4">
 				<h2>Summary</h2>

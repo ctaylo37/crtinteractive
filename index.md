@@ -11,7 +11,7 @@ layout: default
 			<div class="crt-card p-5 text-center">
 				<img src="{{ site.baseurl }}/img/chris.png" class="mb-5 img-fluid rounded-circle">
 				<h2>Christopher Taylor</h2>
-				<p class="small text-muted">Senior Product Manager (UX) at PayPal</p>
+				<p class="small text-muted">Senior UX Designer at PayPal</p>
 			</div>
 		</div>
 		<div class="offset-md-1 col-md-6 my-3">
