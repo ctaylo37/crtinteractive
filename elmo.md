@@ -38,6 +38,8 @@ theme: light
 					<h4 id="roles" class="mt-5">My Roles</h4>
 					<ul>
 						<li>UX Design</li>
+						<li>UX Research</li>
+						<li>User Testing</li>
 						<li>Visual Design</li>
 						<li>HTML Development</li>
 					</ul>

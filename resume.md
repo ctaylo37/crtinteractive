@@ -12,7 +12,7 @@ permalink: resume
 			<div class="col-md-8 mb-3">
 				<h1 class="m-0">Christopher Taylor</h1>
 				<p class="lead m-0">Sr. UX Designer at PayPal</p>
-				<p class="m-0"><a href="https://ctaylo37.github.io/portfolio" target="_blank">www.ctaylo37.github.io</a></p>
+				<p class="m-0"><a href="https://ctaylo37.github.io/portfolio" target="_blank">www.christophertaylor.com</a></p>
 				<p class="m-0"><a href="mailto:crtcreative@gmail.com" target="_blank">crtcreative@gmail.com</a></p>
 			</div>
 			<div class="col-md-4 text-right">
@@ -26,7 +26,7 @@ permalink: resume
 				<h2>Experience</h2>
 				
 				<!-- PayPal -->
-				<h4 class="pl-5 mt-5">Sr. Product Manager (UX) at PayPal</h4>
+				<h4 class="pl-5 mt-5">Sr. UX Designer at PayPal</h4>
 				<p class="pl-5 small text-muted">September 2016 - Present</p>
 				<ul>
 					<li>Leads the UX design strategy and implementation for all Core Platform Services within PayPal, including the monitoring, experimentation, and notification platforms.</li>
