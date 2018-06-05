@@ -13,62 +13,6 @@ permalink: /portfolio
 			<h5 class="text-muted">Select Works</h5>
 		</div>
 
-		<!-- ELMO -->
-		<div class="col-md-12 mb-5">
-			<a href="{{ site.baseurl }}/elmo">
-				<div class="row crt-card portfolio-card">
-					<div class="col-md-6 p-0">
-						<div class="crt-card-description d-flex align-items-start flex-column pb-2 pt-5 px-5">
-							<h1 class="m-0">PayPal Experimentation</h1>
-							<label><span class="badge">2017</span> | Web App</label>
-							<hr>
-							<h4>Roles:</h4>
-							<ul>
-								<li>UX Design</li>
-								<li>UX Research</li>
-								<li>User Testing</li>
-								<li>Visual Design</li>
-								<li>HTML Development</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-6 p-0">
-						<div class="crt-card-img d-flex align-items-start flex-column">
-							<img src="{{ site.baseurl }}/img/slug-elmo.png" class="img-fluid mt-auto">
-						</div>
-					</div>
-				</div>
-			</a>
-		</div>
-
-		<!-- Sherlock -->
-		<div class="col-md-12 mb-5">
-			<a href="{{ site.baseurl }}/sherlock">
-				<div class="row crt-card portfolio-card">
-					<div class="col-md-6 p-0">
-						<div class="crt-card-description d-flex align-items-start flex-column pb-2 pt-5 px-5">
-							<h1 class="m-0">PayPal Monitoring</h1>
-							<label><span class="badge">2018</span> | Web App (Work In Progress)</label>
-							<hr>
-							<h4>Roles:</h4>
-							<ul>
-								<li>UX Design</li>
-								<li>UX Research</li>
-								<li>User Testing</li>
-								<li>Visual Design</li>
-								<li>HTML Development</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-6 p-0">
-						<div class="crt-card-img d-flex align-items-start flex-column">
-							<img src="{{ site.baseurl }}/img/slug-sherlock.png" class="img-fluid mt-auto">
-						</div>
-					</div>
-				</div>
-			</a>
-		</div>
-
 		<!-- Cicero Website -->
 		<div class="col-md-12 mb-5">
 			<a href="{{ site.baseurl }}/cicero">
