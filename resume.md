@@ -11,7 +11,7 @@ permalink: resume
 		<div class="row">
 			<div class="col-md-8 mb-3">
 				<h1 class="m-0">Christopher Taylor</h1>
-				<p class="lead m-0">Sr. UX Designer at PayPal</p>
+				<p class="lead m-0">Principal UX Designer at Oracle</p>
 				<p class="m-0"><a href="https://ctaylo37.github.io/portfolio" target="_blank">www.christophertaylor.com</a></p>
 				<p class="m-0"><a href="mailto:crtcreative@gmail.com" target="_blank">crtcreative@gmail.com</a></p>
 			</div>
@@ -25,9 +25,13 @@ permalink: resume
 			<div class="col-md-12 mt-4">
 				<h2>Experience</h2>
 				
+				<!-- Oracle -->
+				<h4 class="pl-5 mt-5">Principal UX Designer at Oracle</h4>
+				<p class="pl-5 small text-muted">March 2018 - Present</p>
+
 				<!-- PayPal -->
 				<h4 class="pl-5 mt-5">Sr. UX Designer at PayPal</h4>
-				<p class="pl-5 small text-muted">September 2016 - Present</p>
+				<p class="pl-5 small text-muted">September 2016 - March 2018</p>
 				<ul>
 					<li>Leads the UX design strategy and implementation for all Core Platform Services within PayPal, including the monitoring, experimentation, and notification platforms.</li>
 					<li>Works collaboratively with multiple product managers and teams to accomplish a consistent user experience across many enterprise systems.</li>
